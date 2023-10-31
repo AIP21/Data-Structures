@@ -5,6 +5,8 @@ package ProgressionProblem;
  * 
  * Uses an increment and increases the current value by the increment every time
  * it is advanced.
+ * 
+ * @author Alexander Irausquin-Petit (September 2023)
  */
 public class ArithmeticProgression extends AbstractProgression {
     protected long increment;
@@ -40,6 +42,7 @@ public class ArithmeticProgression extends AbstractProgression {
         this.increment = increment;
     }
 
+    @Override
     protected void advance() {
         current += increment;
     }

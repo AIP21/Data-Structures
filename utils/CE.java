@@ -4,8 +4,9 @@ package utils;
  * CE class - Stands for Class Extended
  * 
  * Has some extra utility functions I like to use to help speed up development.
+ * 
+ * @author Alexander Irausquin-Petit (September 2023)
  */
-
 public abstract class CE {
 
     /**

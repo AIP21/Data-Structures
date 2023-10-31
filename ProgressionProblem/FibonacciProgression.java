@@ -5,6 +5,8 @@ package ProgressionProblem;
  * 
  * Adds the previous value to the current value every time the progression is
  * advanced.
+ * 
+ * @author Alexander Irausquin-Petit (September 2023)
  */
 public class FibonacciProgression extends AbstractProgression {
     protected long previousValue;
@@ -29,6 +31,7 @@ public class FibonacciProgression extends AbstractProgression {
         previousValue = second - first;
     }
 
+    @Override
     protected void advance() {
         long temp = previousValue;
         previousValue = current;

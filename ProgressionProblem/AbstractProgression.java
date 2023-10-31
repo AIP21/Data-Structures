@@ -7,6 +7,8 @@ import utils.CE;
  * 
  * Subclasses inherit this class and create its behavior by implementing the
  * advance method.
+ * 
+ * @author Alexander Irausquin-Petit (September 2023)
  */
 public abstract class AbstractProgression extends CE {
     protected long current;
@@ -29,6 +31,8 @@ public abstract class AbstractProgression extends CE {
 
     /**
      * Returns the next value in the progression.
+     * 
+     * @return The next value in the progression.
      */
     public long nextValue() {
         long answer = current;
@@ -45,9 +49,16 @@ public abstract class AbstractProgression extends CE {
     /**
      * Computes the progression up to index n and prints it out.
      * 
-     * @param n The index to compute the progression up to.
+     * @param n The index to compute the progression up to. Must be greater than or
+     *          equal to 1.
+     * @throws IndexOutOfBoundsException If the n parameter is less than 1.
      */
     public void printProgression(int n) {
+        if (n < 1) {
+            throw new IndexOutOfBoundsException(
+                    "Trying to print the progression with an n parameter less than 1. This is not allowed.");
+        }
+
         inprint(nextValue());
 
         for (int j = 1; j < n; j++) {

@@ -5,6 +5,8 @@ package ProgressionProblem;
  * 
  * Uses a base and multiplies the current value by the base every time it is
  * advanced.
+ * 
+ * @author Alexander Irausquin-Petit (September 2023)
  */
 public class GeometricProgression extends AbstractProgression {
     protected long multiplier;
@@ -40,6 +42,7 @@ public class GeometricProgression extends AbstractProgression {
         this.multiplier = multiplier;
     }
 
+    @Override
     protected void advance() {
         current *= multiplier;
     }
