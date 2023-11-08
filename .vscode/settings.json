@@ -1,5 +1,6 @@
 {
     "maven.view": "hierarchical",
     "java.compile.nullAnalysis.mode": "automatic",
-    "editor.inlineSuggest.enabled": false
+    "editor.inlineSuggest.enabled": false,
+    "java.debug.settings.onBuildFailureProceed": true
 }

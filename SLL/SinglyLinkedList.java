@@ -214,7 +214,8 @@ public class SinglyLinkedList<E> {
      * @param other The list to compare to
      * @return True if this list is equal to the other list, otherwise false.
      */
-    public boolean equals(SinglyLinkedList<E> other) {
+    @Override
+    public boolean equals(Object other) {
         // If other is null, return false
         if (other == null) {
             return false;
@@ -225,7 +226,7 @@ public class SinglyLinkedList<E> {
             return false;
         }
 
-        SinglyLinkedList<E> otherList = (SinglyLinkedList<E>) other;
+        SinglyLinkedList<?> otherList = (SinglyLinkedList<?>) other;
 
         // If the lengths are different, return false
         if (otherList.size() != this.size()) {
@@ -233,7 +234,7 @@ public class SinglyLinkedList<E> {
         }
 
         Node<E> a = this.head;
-        Node<E> b = other.head;
+        Node<?> b = otherList.head;
 
         // Check all the elements to make sure they are equal
         while (a != null) {
