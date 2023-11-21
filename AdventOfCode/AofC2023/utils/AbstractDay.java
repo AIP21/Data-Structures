@@ -10,6 +10,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -17,6 +18,8 @@ import java.util.regex.Pattern;
  * This is a Day class used for Advent of Code
  */
 public abstract class AbstractDay {
+    private boolean PRODUCTION = false;
+
     private final int YEAR = 2017;
     private final boolean OVERWRITE_INPUT_FILE = false;
 
@@ -39,15 +42,68 @@ public abstract class AbstractDay {
     public AbstractDay(boolean skipPart1) {
         String thisName = this.getClass().toString().replace("class ", "");
 
-        // Download and load in the input
-        int day = Integer.parseInt(thisName.replace("Day", ""));
-        input = Downloader.downloadInput(YEAR, day, OVERWRITE_INPUT_FILE);
+        if (!System.getProperty("user.dir").contains("20ani")) {
+            PRODUCTION = true;
+        }
+
+        // Get the day number for this class (from filename)
+        int day = Integer.parseInt(thisName.replace("Day", "").replace("Prob", ""));
+
+        if (!PRODUCTION) {
+            // Download and load in the input
+            input = Downloader.downloadInput(YEAR, day, OVERWRITE_INPUT_FILE);
+        } else {
+            // Special file loading
+            File inputFile = null;
+
+            try {
+                // Load from file
+                String filename = "data/Input_2023_" + day + ".data";
+                inputFile = new File(filename);
+
+                // Load the production input from the input file
+                input = "";
+
+                if (inputFile != null) {
+                    Scanner reader = new Scanner(inputFile);
+
+                    while (reader.hasNextLine()) {
+                        input += reader.nextLine() + "\n";
+                    }
+
+                    reader.close();
+                }
+            } catch (Exception e) {
+                try {
+                    // Load from file
+                    String filename = "data/" + day + ".txt";
+                    inputFile = new File(filename);
+
+                    // Load the production input from the input file
+                    input = "";
+
+                    if (inputFile != null) {
+                        Scanner reader = new Scanner(inputFile);
+
+                        while (reader.hasNextLine()) {
+                            input += reader.nextLine() + "\n";
+                        }
+
+                        reader.close();
+                    }
+                } catch (Exception e2) {
+                    System.out.println("Error loading files");
+                }
+            }
+        }
 
         // Read every line in the file and put it into a list
         lines = getLines(input);
 
         // Calculate log timestamp
-        setupLogging();
+        if (!PRODUCTION) {
+            setupLogging();
+        }
 
         long start = System.currentTimeMillis();
         if (!skipPart1) {
@@ -112,11 +168,13 @@ public abstract class AbstractDay {
     }
 
     protected void log(Object o) {
-        printFileWriter.println(o);
+        if (!PRODUCTION)
+            printFileWriter.println(o);
     }
 
     protected void logInline(Object o) {
-        printFileWriter.print(o);
+        if (!PRODUCTION)
+            printFileWriter.print(o);
     }
 
     protected void shouldPrint(boolean toSet) {
@@ -130,7 +188,7 @@ public abstract class AbstractDay {
         String thisName = this.getClass().toString().replace("class ", "");
 
         // Download and load in the input
-        int day = Integer.parseInt(thisName.replace("Day", ""));
+        int day = Integer.parseInt(thisName.replace("Day", "").replace("Prob", ""));
 
         DateFormat dateTimeFormatter = new SimpleDateFormat("MM-dd-yyyy; HH-mm-ss-SSS");
 
@@ -139,7 +197,7 @@ public abstract class AbstractDay {
         String logTimestamp = dateTimeFormatter.format(calendar.getTime());
 
         try {
-            String logsDirectory = runDirectory + "/AdventOfCode/AoC" + YEAR + "/files/logs/" + thisName;
+            String logsDirectory = runDirectory + "/AdventOfCode/AofC" + YEAR + "/files/logs/" + thisName;
             File dir = new File(logsDirectory);
 
             if (!dir.exists()) {

@@ -34,7 +34,7 @@ public class Downloader {
         String input = "";
 
         try {
-            String inputFileDirectory = System.getProperty("user.dir") + "/AdventOfCode/AoC" + year + "/data/";
+            String inputFileDirectory = System.getProperty("user.dir") + "/AdventOfCode/AofC" + year + "/data/";
             File inputFile = new File(inputFileDirectory + "/" + day + ".txt");
 
             if (inputFile.exists() && !overwrite) {
