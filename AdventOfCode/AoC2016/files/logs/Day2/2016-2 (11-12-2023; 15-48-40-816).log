@@ -1,0 +1,59 @@
+~=~=~=~=~=~=~=~=~=~< Advent of Code 2016: Day 2 >~=~=~=~=~=~=~=~=~=~
+-------------------<  11-12-2023; 15-48-40-816  >-------------------
+
+-------------------<          PART ONE          >-------------------
+Line: ULL
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+End of line pos: (0, 0)
+End of line result: 1
+Line: RRDDD
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+End of line pos: (2, 2)
+End of line result: 17
+Line: LURDL
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+End of line pos: (1, 2)
+End of line result: 176
+Line: UUUUD
+Move: U
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: D
+Char valid at: (1, 1)
+End of line pos: (1, 1)
+End of line result: 1764
+1764
+
+-------------------<          PART TWO          >-------------------
+
+Total time: 31ms
+
+~=~=~=~=~=~=~=~=~=~<         END OF LOG         >~=~=~=~=~=~=~=~=~=~

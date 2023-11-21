@@ -1,0 +1,37 @@
+~=~=~=~=~=~=~=~=~=~< Advent of Code 2016: Day 2 >~=~=~=~=~=~=~=~=~=~
+-------------------<  11-12-2023; 15-40-53-794  >-------------------
+
+-------------------<          PART ONE          >-------------------
+Line: ULL
+command : U
+command : L
+command : L
+Invalid result : 
+Line: RRDDD
+command : R
+command : R
+command : D
+command : D
+command : D
+Invalid result : 
+Line: LURDL
+command : L
+command : U
+command : R
+command : D
+command : L
+Valid result : 2
+Line: UUUUD
+command : U
+command : U
+command : U
+command : U
+command : D
+Invalid result : 2
+2
+
+-------------------<          PART TWO          >-------------------
+
+Total time: 36ms
+
+~=~=~=~=~=~=~=~=~=~<         END OF LOG         >~=~=~=~=~=~=~=~=~=~

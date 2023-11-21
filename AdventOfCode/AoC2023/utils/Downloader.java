@@ -34,14 +34,14 @@ public class Downloader {
         String input = "";
 
         try {
-            String inputFileDirectory = System.getProperty("user.dir") + "/AdventOfCode/AoC" + year + "/data/" + year;
+            String inputFileDirectory = System.getProperty("user.dir") + "/AdventOfCode/AoC" + year + "/data/";
             File inputFile = new File(inputFileDirectory + "/" + day + ".txt");
 
             if (inputFile.exists() && !overwrite) {
                 Scanner reader = new Scanner(inputFile);
 
                 while (reader.hasNextLine()) {
-                    input += reader.nextLine();
+                    input += reader.nextLine() + "\n";
                 }
 
                 reader.close();
@@ -62,14 +62,15 @@ public class Downloader {
             String inputLine;
             while ((inputLine = in.readLine()) != null) {
                 // System.out.println(inputLine);
-                input += inputLine;
+                input += inputLine + "\n";
             }
+
             in.close();
 
             // Write the input to a file
             new File(inputFileDirectory).mkdirs();
             inputFile.createNewFile();
-            
+
             PrintWriter writer = new PrintWriter(inputFile);
             writer.write(input);
             writer.close();

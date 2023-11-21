@@ -7,8 +7,8 @@ import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class Pair<F, S> {
-    private final F first;
-    private final S second;
+    private F first;
+    private S second;
 
     public Pair(final F first, final S second) {
         this.first = first;
@@ -23,13 +23,21 @@ public class Pair<F, S> {
         return second;
     }
 
+    public void setFirst(F newFirst) {
+        this.first = newFirst;
+    }
+
+    public void setSecond(S newSecond) {
+        this.second = newSecond;
+    }
+
     public Pair<S, F> swap() {
-        return of(second, first);
+        return of(getSecond(), getFirst());
     }
 
     @Override
     public String toString() {
-        return "(" + first + ", " + second + ")";
+        return "(" + getFirst() + ", " + getSecond() + ")";
     }
 
     @Override
@@ -38,15 +46,15 @@ public class Pair<F, S> {
             return false;
         }
         final Pair<?, ?> other = (Pair<?, ?>) obj;
-        return Objects.equals(first, other.first) && Objects.equals(second, other.second);
+        return Objects.equals(getFirst(), other.getFirst()) && Objects.equals(getSecond(), other.getSecond());
     }
 
     public <F2> Pair<F2, S> mapFirst(final Function<? super F, ? extends F2> function) {
-        return of(function.apply(first), second);
+        return of(function.apply(getFirst()), getSecond());
     }
 
     public <S2> Pair<F, S2> mapSecond(final Function<? super S, ? extends S2> function) {
-        return of(first, function.apply(second));
+        return of(getFirst(), function.apply(getSecond()));
     }
 
     public static <F, S> Pair<F, S> of(final F first, final S second) {

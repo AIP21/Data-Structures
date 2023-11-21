@@ -1,4 +1,4 @@
-import utils.AbstractDay;
+import utils.*;
 
 public class Day extends AbstractDay {
     public static void main(String[] args) {

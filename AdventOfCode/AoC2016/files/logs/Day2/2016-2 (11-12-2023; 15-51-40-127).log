@@ -1,0 +1,5013 @@
+~=~=~=~=~=~=~=~=~=~< Advent of Code 2016: Day 2 >~=~=~=~=~=~=~=~=~=~
+-------------------<  11-12-2023; 15-51-40-127  >-------------------
+
+-------------------<          PART ONE          >-------------------
+Line: DULUDRDDDRLUDURUUULRRRURDRDULRUDDUDRULUDDUDRLDULRRLRDRUDUUULUUDLRURDUDDDDRDLLLLULRDLDRDLRLULRUURDDUULUDLRURRDDRDDRDDLDRDLLUURDRUULRRURURRDLRLLLUDULULULULUDRLLRUDUURLDRLRLRDRRDRLLLDURRDULDURDDRLURRDURLRRRLDLLLDRUUURLRDLDLLLLRDURRLDLULRLDDLDLURLRRDDRUDDUULRURRUDLRDLDUURDDDDRLRURUDULUDLRRLLLLLRDRURLLDLDULUUDLUDDDRLLDRRUDLLURRUUDDRRLLRRLDDDURLDRDRLURRRRDRRRDDUDULULDURRUUURRRDULUUUDDRULDRLLRDLDURLURRLLRUUUULRDURLLDDRLLDLRLRULUUDRURUDLLURUDDRDURLRDRRRDURLDDRDRLRLLURULUUULUDDDULDLRDDDRDLLRRLDRDULLUUUDLDDLDDDLLLLLLLDUDURURDURDRUURRRDDRDUDLULDURDUDURDDDRULDURURURRLURLURLUURLULDLLRUULURDDRLRDDLRDLRRRLUURLRUDRRUDLLDLUDDURULURLUUDUUDDRLUULRDUDDUULDUUDRURDDRRDRLULLRDRDLRLLUURRUULRLDRULUDLDUUDDDRDDLRDLULDRLDUULDLRDLLLDLDLRDUULUDURRULLRLDUDRLLLULUUUULUUDUUURRRDULLUURUDRRLDURRUULDRDULDUDRDUUULUUDDRLUDRLDLDRUUURDLDUDRUDUURLLRRLRLLRRLDULDDULUDUUURULDDUDUDRURRDLULRUDDURDLDLLRRRLDRLULLLRUULDUDLUUDURRLLLRLUDURRDDLDRDDDLURDLDRRUDUDLUDULULRUUUDLUURLLRLDDLURULDURDLRRDDDDURLDDLLDDULLLRLDLDULDUUDDRLDUURDDLDLUUDULRRLRLUURURUURLRLURUURLDRUURLLRDDUUUDULUDDDRDRLDRDRRLRLDULLRRUDLURULULRDRURURLULDUDLRURLRDDRULDDLRDLUDRULUULRRDDDDRRDUURUDDRLDDLDRDURRURULRDLDLDUUDRRDUUDUDLLLRRLDUDDRLDDLRRLRDRLUDLULUDDUUDULDUUULUDLDDURLDURUDLDRUUDRLRRLDLDDULDUUDDLDDLLURDRLRUURDDRUDDUDLDRRLRUDRUULRRRLRULULURDLRRURDRLRULDDDRDUULLURUUUURUDDLRRRRRDURLULDLUULUDRRUDUDRRDDRURDURLRLUDDLDLRRULUDLDDRLDDLDDDLLLLRDLLUULDDLULDLDRDDUDLURUDLDLDDRRUUDDDLRLLLDRRDDDUURDUDURUURRDRLLDUDLDUULLDLDLLUULLRRULDLDRURLDULDRUURDURRURDLRDLLLDRRUDRUUDRURLUDDRURLDURRDLUUDLUUDULLLDDDDRRDLLLDLURULDDRDLUUURRDRRUUDDULDUUULDUDDDURLLULDDLLUDURLLLURULULURUURDRURLRULLLLDRDDULRRDRRLLLRDDDUULLRRURRULLDDURRRLRDDLULDULLDUDLURRDLDDLURDLRLLDRURLLRLLRRRDRRRURURUUDDLLDDLDDDLRLURUUUULRDLUDDDURLLDDRLDRRLLUDUUULRLLDRRRLRUUDLDUULRLUDRULLLLDUDLLUUDDRUURLURUDRDDDLRURUDRLULLULUUDLDURDULRRDRLDURUULRDRRRDRDRRLRLRDDUULLRDLDURDDDULURRLULDDURDURDDUDURDLLUUULUDULRDDLDRDRUDLLUURDLRDURURULURULLDRLLRRULDLULULDLULRURLRRLUDLLLRLUDLURLULDULDRLLLDLDDDDRDRLRRLRDULUUDULDDLDURDLLLDDDDLLUURRDURLDLUDDLULRUUUDDRRLDLLLRDLLDRRRDDLULLURDDRRRRLDLRLLLRLLULLRRDURRLDUUDRRURLURURRRLRDRUULUULURLLURRDRULRDURDDDDUULLLLDUULDLULURDRLDLULULDRLLDLLRLRULURUDRUUDULRULLLUDRULUDRLLUDLDRRDRUUURURLRDURDRLRDDDURLURRDLRUUUDUURULULDLUULRDLRRRDRDRLLLDLRRDRLLDDULDRUDRRLULLRDLDUDDULRDDLULRURULRLLLULDLLLLRDLDRURUDUURURLDRLUULLDUDULUDDDULUDLRUDDUDLULLUULUUURULURRULRDDURDDLURLRRDRDLDULRLRDRRRULRDDDRLLDDDDRRRRDRDLULUURDURULDLRDULDUDLDURUDLUDLUDDDUDURDURDDURLLRUDUURRRUDRRRRULLLLDDDLUULLUULRRRULDLURDLULRULDRLR
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: D
+Char ignored at: (1, 3)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: D
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: D
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: U
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: U
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: D
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: D
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: U
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: D
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: U
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: U
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: D
+Char ignored at: (1, 3)
+Move: D
+Char ignored at: (1, 3)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: U
+Char ignored at: (2, -1)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: D
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: D
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: R
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: D
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: D
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: U
+Char ignored at: (0, -1)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: D
+Char ignored at: (1, 3)
+Move: D
+Char ignored at: (1, 3)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: D
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: U
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: D
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: U
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: U
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: R
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: D
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: U
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: U
+Char ignored at: (0, -1)
+Move: U
+Char ignored at: (0, -1)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: U
+Char ignored at: (0, -1)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: D
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: U
+Char ignored at: (0, -1)
+Move: R
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: D
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: D
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: U
+Char ignored at: (0, -1)
+Move: R
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: R
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: R
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: R
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: U
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: R
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: R
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: R
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: L
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: D
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: U
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: U
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: R
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: U
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: D
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: R
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: D
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: R
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: D
+Char ignored at: (1, 3)
+Move: U
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: D
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: D
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: D
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: U
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: D
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: U
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: R
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: D
+Char ignored at: (1, 3)
+Move: D
+Char ignored at: (1, 3)
+Move: U
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: U
+Char ignored at: (2, -1)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: R
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: R
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: D
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: D
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: U
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: D
+Char ignored at: (1, 3)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: R
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: R
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: R
+Char valid at: (2, 2)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: D
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: L
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: D
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: R
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: R
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: R
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: U
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: R
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: D
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: D
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: D
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: U
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: D
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: D
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: U
+Char ignored at: (2, -1)
+Move: D
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: R
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: D
+Char valid at: (0, 2)
+Move: R
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: U
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: R
+Char ignored at: (3, 0)
+Move: L
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: U
+Char ignored at: (0, -1)
+Move: U
+Char ignored at: (0, -1)
+Move: R
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: D
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: D
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: L
+Char valid at: (1, 2)
+Move: D
+Char ignored at: (1, 3)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: U
+Char valid at: (2, 1)
+Move: L
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: L
+Char valid at: (1, 2)
+Move: L
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: D
+Char ignored at: (0, 3)
+Move: R
+Char valid at: (1, 2)
+Move: R
+Char valid at: (2, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: R
+Char ignored at: (3, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: R
+Char ignored at: (3, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: L
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: L
+Char ignored at: (-1, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: L
+Char ignored at: (-1, 1)
+Move: U
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: U
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: U
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: D
+Char valid at: (1, 2)
+Move: U
+Char valid at: (1, 1)
+Move: R
+Char valid at: (2, 1)
+Move: D
+Char valid at: (2, 2)
+Move: D
+Char ignored at: (2, 3)
+Move: U
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: L
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: U
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: R
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: D
+Char valid at: (2, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: R
+Char ignored at: (3, 1)
+Move: U
+Char valid at: (2, 0)
+Move: L
+Char valid at: (1, 0)
+Move: L
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: D
+Char valid at: (0, 1)
+Move: D
+Char valid at: (0, 2)
+Move: D
+Char ignored at: (0, 3)
+Move: L
+Char ignored at: (-1, 2)
+Move: U
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: U
+Char ignored at: (0, -1)
+Move: U
+Char ignored at: (0, -1)
+Move: L
+Char ignored at: (-1, 0)
+Move: R
+Char valid at: (1, 0)
+Move: R
+Char valid at: (2, 0)
+Move: R
+Char ignored at: (3, 0)
+Move: U
+Char ignored at: (2, -1)
+Move: L
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: R
+Char valid at: (1, 0)
+Move: D
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: U
+Char valid at: (0, 0)
+Move: L
+Char ignored at: (-1, 0)
+Move: R
+Char valid at: (1, 0)
+Move: U
+Char ignored at: (1, -1)
+Move: L
+Char valid at: (0, 0)
+Move: D
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+Move: L
+Char valid at: (0, 1)
+Move: R
+Char valid at: (1, 1)
+End of line pos: (1, 1)
+End of line result: 5
+
+Bathroom code: 5
+
+-------------------<          PART TWO          >-------------------
+
+Total time: 2362ms
+
+~=~=~=~=~=~=~=~=~=~<         END OF LOG         >~=~=~=~=~=~=~=~=~=~

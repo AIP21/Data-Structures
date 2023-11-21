@@ -10,18 +10,20 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * This is a Day class used for Advent of Code
  */
 public abstract class AbstractDay {
-    private final int YEAR = 2016;
+    private final int YEAR = 2017;
     private final boolean OVERWRITE_INPUT_FILE = false;
 
     private PrintStream printFileWriter = null;
 
     protected String input;
-    protected final ArrayList<String> lines;
+    protected ArrayList<String> lines;
 
     protected IntParser intParser = new IntParser();
     protected FloatParser floatParser = new FloatParser();
@@ -51,10 +53,12 @@ public abstract class AbstractDay {
         if (!skipPart1) {
             print("-------------------<          PART ONE          >-------------------");
             part1();
+            shouldPrint(true);
         }
 
         print("\n-------------------<          PART TWO          >-------------------");
         part2();
+        shouldPrint(true);
 
         print("\nTotal time: " + (System.currentTimeMillis() - start) + "ms");
 
@@ -84,18 +88,26 @@ public abstract class AbstractDay {
     public abstract void part2();
 
     // region Printing and Logging
+    private boolean isPrinting = true;
+
     protected void print(Object o) {
-        System.out.println(o);
+        if (isPrinting)
+            System.out.println(o);
+
         log(o);
     }
 
     protected void print(String label, Object o) {
-        System.out.println(label + ": " + o.toString());
+        if (isPrinting)
+            System.out.println(label + ": " + o.toString());
+
         log(label + ": " + o.toString());
     }
 
     protected void inprint(Object o) {
-        System.out.print(o);
+        if (isPrinting)
+            System.out.print(o);
+
         logInline(o);
     }
 
@@ -105,6 +117,10 @@ public abstract class AbstractDay {
 
     protected void logInline(Object o) {
         printFileWriter.print(o);
+    }
+
+    protected void shouldPrint(boolean toSet) {
+        isPrinting = toSet;
     }
 
     protected void setupLogging() {
@@ -144,6 +160,11 @@ public abstract class AbstractDay {
     // endregion
 
     // region Input Management
+    protected void testInput(String testInput) {
+        this.input = testInput;
+        this.lines = getLines(this.input);
+    }
+
     private ArrayList<String> getLines(String inputString) {
         return new ArrayList<>(Arrays.asList(inputString.split("\n")));
     }
@@ -187,237 +208,226 @@ public abstract class AbstractDay {
     }
 
     // region Number parsing
-    private abstract class AbstractParser<T> {
-        public abstract T parse(int lineIndex);
+    protected abstract class AbstractParser<T> {
+        protected abstract T parse(String str);
 
-        public abstract T parse(int lineIndex, int startIndex);
+        /**
+         * Parses an entire line.
+         * The line must not contain any unnecessary characters.
+         * 
+         * @param lineIndex The line to parse
+         * @return The parsed line
+         */
+        public T parse(int lineIndex) {
+            return parse(lines.get(lineIndex));
+        }
 
-        public abstract T parse(int lineIndex, int startIndex, int endInex);
+        /**
+         * Parses an entire line.
+         * The line must not contain any unnecessary characters.
+         * 
+         * @param lineIndex  The line to parse
+         * @param startIndex The index to start parsing in the line
+         * @return The parsed substring of line
+         */
+        public T parse(int lineIndex, int startIndex) {
+            return parse(lines.get(lineIndex).substring(startIndex));
+        }
 
-        public abstract T parseSmart(int lineIndex);
+        /**
+         * Parses an entire line.
+         * The line must not contain any unnecessary characters.
+         * 
+         * @param lineIndex  The line to parse
+         * @param startIndex The index to start parsing in the line
+         * @param endIndex   The index to end parsing in the line
+         * @return The parsed substring of line
+         */
+        public T parse(int lineIndex, int startIndex, int endIndex) {
+            return parse(lines.get(lineIndex).substring(startIndex, endIndex));
+        }
 
-        public abstract T parseSmart(int lineIndex, int startIndex);
+        protected abstract T parseSmart(String str);
 
-        public abstract T parseSmart(int lineIndex, int startIndex, int endInex);
+        /**
+         * Parses an entire line but ignores unnecessary characters.
+         * This is more robust, but slightly slower.
+         * 
+         * @param lineIndex The line to parse
+         * @return The parsed value
+         */
+        public T parseSmart(int lineIndex) {
+            return parseSmart(lines.get(lineIndex));
+        }
+
+        /**
+         * Parses an entire line but ignores unnecessary characters.
+         * This is more robust, but slightly slower.
+         * 
+         * @param lineIndex
+         * @return The parsed value
+         */
+        public T parseSmart(int lineIndex, int startIndex) {
+            return parseSmart(lines.get(lineIndex).substring(startIndex));
+        }
+
+        /**
+         * Parses an entire line but ignores unnecessary characters.
+         * This is more robust, but slightly slower.
+         * 
+         * @param lineIndex  The line to parse
+         * @param startIndex The index to start parsing in the line
+         * @param endIndex   The index to end parsing in the line
+         * @return The parsed substring of line
+         */
+        public T parseSmart(int lineIndex, int startIndex, int endIndex) {
+            return parseSmart(lines.get(lineIndex).substring(startIndex, endIndex));
+        }
+
+        /**
+         * Parses an entire string as a list, ignoring uncessary characters.
+         * 
+         * @param toParse The string to parse
+         * @return Every parsed value in the string
+         */
+        public abstract T[] parseString(String toParse);
+
+        /**
+         * Parses an entire line as a list, ignoring uncessary characters.
+         * 
+         * @param lineIndex The line to parse
+         * @return Every parsed value in the line
+         */
+        public T[] parseLine(int lineIndex) {
+            return parseString(lines.get(lineIndex));
+        }
     }
 
     // int parser
-    private class IntParser extends AbstractParser<Integer> {
+    protected class IntParser extends AbstractParser<Integer> {
         @Override
-        public Integer parse(int lineIndex) {
-            return Integer.parseInt(getLine(lineIndex));
+        protected Integer parse(String toParse) {
+            return Integer.parseInt(toParse);
         }
 
         @Override
-        public Integer parse(int lineIndex, int startIndex) {
-            return Integer.parseInt(getLinePart(lineIndex, startIndex));
+        protected Integer parseSmart(String toParse) {
+            Matcher matcher = Pattern.compile("\\d+").matcher(toParse);
+            matcher.find();
+
+            return Integer.parseInt(matcher.group());
         }
 
         @Override
-        public Integer parse(int lineIndex, int startIndex, int endIndex) {
-            return Integer.parseInt(getLinePart(lineIndex, startIndex, endIndex));
-        }
+        public Integer[] parseString(String toParse) {
+            // Split the input string by spaces
+            String[] tokens = toParse.trim().split("\\s+");
 
-        @Override
-        public Integer parseSmart(int lineIndex) {
-            String line = lines.get(lineIndex);
-            int firstNumIndex = line.indexOf("[0-9]");
-            for (int i = firstNumIndex; i < line.length(); i++) {
-                if (!Character.isDigit(line.charAt(i))) {
-                    return Integer.parseInt(line.substring(firstNumIndex, i));
-                }
+            // Create an array to store the integers
+            Integer[] result = new Integer[tokens.length];
+
+            // Parse each substring into an integer
+            for (int i = 0; i < tokens.length; i++) {
+                result[i] = Integer.parseInt(tokens[i]);
             }
 
-            return 0;
-        }
-
-        @Override
-        public Integer parseSmart(int lineIndex, int startIndex) {
-            String line = lines.get(lineIndex);
-            for (int i = startIndex; i < line.length(); i++) {
-                if (!Character.isDigit(line.charAt(i))) {
-                    return Integer.parseInt(line.substring(startIndex, i));
-                }
-            }
-
-            return 0;
-        }
-
-        @Override
-        public Integer parseSmart(int lineIndex, int startIndex, int endIndex) {
-            String line = lines.get(lineIndex);
-            for (int i = startIndex; i < endIndex; i++) {
-                if (!Character.isDigit(line.charAt(i))) {
-                    return Integer.parseInt(line.substring(startIndex, i));
-                }
-            }
-
-            return 0;
+            return result;
         }
     }
 
     // float parser
-    private class FloatParser extends AbstractParser<Float> {
+    protected class FloatParser extends AbstractParser<Float> {
         @Override
-        public Float parse(int lineIndex) {
-            return Float.parseFloat(getLine(lineIndex));
+        protected Float parse(String toParse) {
+            return Float.parseFloat(toParse);
         }
 
         @Override
-        public Float parse(int lineIndex, int startIndex) {
-            return Float.parseFloat(getLinePart(lineIndex, startIndex));
+        public Float parseSmart(String toParse) {
+            Matcher matcher = Pattern.compile("([0-9,.]+)").matcher(toParse);
+            matcher.find();
+
+            return Float.parseFloat(matcher.group());
         }
 
         @Override
-        public Float parse(int lineIndex, int startIndex, int endIndex) {
-            return Float.parseFloat(getLinePart(lineIndex, startIndex, endIndex));
-        }
+        public Float[] parseString(String toParse) {
+            // Split the input string by spaces
+            String[] tokens = toParse.trim().split("\\s+");
 
-        @Override
-        public Float parseSmart(int lineIndex) {
-            String line = lines.get(lineIndex);
-            int firstNumIndex = line.indexOf("[0-9]");
-            for (int i = firstNumIndex; i < line.length(); i++) {
-                if (!Character.isDigit(line.charAt(i)) && line.charAt(i) != '.') {
-                    return Float.parseFloat(line.substring(firstNumIndex, i));
-                }
+            // Create an array to store the integers
+            Float[] result = new Float[tokens.length];
+
+            // Parse each substring into an integer
+            for (int i = 0; i < tokens.length; i++) {
+                result[i] = Float.parseFloat(tokens[i]);
             }
 
-            return 0.0f;
-        }
-
-        @Override
-        public Float parseSmart(int lineIndex, int startIndex) {
-            String line = lines.get(lineIndex);
-            for (int i = startIndex; i < line.length(); i++) {
-                if (!Character.isDigit(line.charAt(i)) && line.charAt(i) != '.') {
-                    return Float.parseFloat(line.substring(startIndex, i));
-                }
-            }
-
-            return 0.0f;
-        }
-
-        @Override
-        public Float parseSmart(int lineIndex, int startIndex, int endIndex) {
-            String line = lines.get(lineIndex);
-            for (int i = startIndex; i < endIndex; i++) {
-                if (!Character.isDigit(line.charAt(i)) && line.charAt(i) != '.') {
-                    return Float.parseFloat(line.substring(startIndex, i));
-                }
-            }
-
-            return 0.0f;
+            return result;
         }
     }
 
     // double parser
-    private class DoubleParser extends AbstractParser<Double> {
+    protected class DoubleParser extends AbstractParser<Double> {
         @Override
-        public Double parse(int lineIndex) {
-            return Double.parseDouble(getLine(lineIndex));
+        protected Double parse(String toParse) {
+            return Double.parseDouble(toParse);
         }
 
         @Override
-        public Double parse(int lineIndex, int startIndex) {
-            return Double.parseDouble(getLinePart(lineIndex, startIndex));
+        public Double parseSmart(String toParse) {
+            Matcher matcher = Pattern.compile("([0-9,.]+)").matcher(toParse);
+            matcher.find();
+
+            return Double.parseDouble(matcher.group());
         }
 
         @Override
-        public Double parse(int lineIndex, int startIndex, int endIndex) {
-            return Double.parseDouble(getLinePart(lineIndex, startIndex, endIndex));
-        }
+        public Double[] parseString(String toParse) {
+            // Split the input string by spaces
+            String[] tokens = toParse.trim().split("\\s+");
 
-        @Override
-        public Double parseSmart(int lineIndex) {
-            String line = lines.get(lineIndex);
-            int firstNumIndex = line.indexOf("[0-9]");
-            for (int i = firstNumIndex; i < line.length(); i++) {
-                if (!Character.isDigit(line.charAt(i)) && line.charAt(i) != '.') {
-                    return Double.parseDouble(line.substring(firstNumIndex, i));
-                }
+            // Create an array to store the integers
+            Double[] result = new Double[tokens.length];
+
+            // Parse each substring into an integer
+            for (int i = 0; i < tokens.length; i++) {
+                result[i] = Double.parseDouble(tokens[i]);
             }
 
-            return 0.0;
-        }
-
-        @Override
-        public Double parseSmart(int lineIndex, int startIndex) {
-            String line = lines.get(lineIndex);
-            for (int i = startIndex; i < line.length(); i++) {
-                if (!Character.isDigit(line.charAt(i)) && line.charAt(i) != '.') {
-                    return Double.parseDouble(line.substring(startIndex, i));
-                }
-            }
-
-            return 0.0;
-        }
-
-        @Override
-        public Double parseSmart(int lineIndex, int startIndex, int endIndex) {
-            String line = lines.get(lineIndex);
-            for (int i = startIndex; i < endIndex; i++) {
-                if (!Character.isDigit(line.charAt(i)) && line.charAt(i) != '.') {
-                    return Double.parseDouble(line.substring(startIndex, i));
-                }
-            }
-
-            return 0.0;
+            return result;
         }
     }
 
     // boolean parser
-    private class BooleanParser extends AbstractParser<Boolean> {
+    protected class BooleanParser extends AbstractParser<Boolean> {
         @Override
-        public Boolean parse(int lineIndex) {
-            return Boolean.parseBoolean(getLine(lineIndex));
+        protected Boolean parse(String toParse) {
+            return Boolean.parseBoolean(toParse);
         }
 
         @Override
-        public Boolean parse(int lineIndex, int startIndex) {
-            return Boolean.parseBoolean(getLinePart(lineIndex, startIndex));
+        public Boolean parseSmart(String toParse) {
+            Matcher matcher = Pattern.compile("//(d+)").matcher(toParse);
+            matcher.find();
+
+            return Boolean.parseBoolean(matcher.group());
         }
 
         @Override
-        public Boolean parse(int lineIndex, int startIndex, int endIndex) {
-            return Boolean.parseBoolean(getLinePart(lineIndex, startIndex, endIndex));
-        }
+        public Boolean[] parseString(String toParse) {
+            // Split the input string by spaces
+            String[] tokens = toParse.trim().split("\\s+");
 
-        @Override
-        public Boolean parseSmart(int lineIndex) {
-            String line = lines.get(lineIndex);
-            int firstNumIndex = line.indexOf("[0-9]");
-            for (int i = firstNumIndex; i < line.length(); i++) {
-                if (!Character.isDigit(line.charAt(i)) && line.charAt(i) != '.') {
-                    return Boolean.parseBoolean(line.substring(firstNumIndex, i));
-                }
+            // Create an array to store the integers
+            Boolean[] result = new Boolean[tokens.length];
+
+            // Parse each substring into an integer
+            for (int i = 0; i < tokens.length; i++) {
+                result[i] = Boolean.parseBoolean(tokens[i]);
             }
 
-            return false;
-        }
-
-        @Override
-        public Boolean parseSmart(int lineIndex, int startIndex) {
-            String line = lines.get(lineIndex);
-            for (int i = startIndex; i < line.length(); i++) {
-                if (!Character.isDigit(line.charAt(i)) && line.charAt(i) != '.') {
-                    return Boolean.parseBoolean(line.substring(startIndex, i));
-                }
-            }
-
-            return false;
-        }
-
-        @Override
-        public Boolean parseSmart(int lineIndex, int startIndex, int endIndex) {
-            String line = lines.get(lineIndex);
-            for (int i = startIndex; i < endIndex; i++) {
-                if (!Character.isDigit(line.charAt(i)) && line.charAt(i) != '.') {
-                    return Boolean.parseBoolean(line.substring(startIndex, i));
-                }
-            }
-
-            return false;
+            return result;
         }
     }
     // endregion

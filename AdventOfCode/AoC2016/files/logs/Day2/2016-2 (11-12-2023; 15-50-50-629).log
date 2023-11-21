@@ -1,0 +1,41 @@
+~=~=~=~=~=~=~=~=~=~< Advent of Code 2016: Day 2 >~=~=~=~=~=~=~=~=~=~
+-------------------<  11-12-2023; 15-50-50-629  >-------------------
+
+-------------------<          PART ONE          >-------------------
+Line: ULL
+Move: U
+Move: L
+Move: L
+End of line pos: (0, 0)
+End of line result: 1
+Line: RRDDD
+Move: R
+Move: R
+Move: D
+Move: D
+Move: D
+End of line pos: (2, 2)
+End of line result: 19
+Line: LURDL
+Move: L
+Move: U
+Move: R
+Move: D
+Move: L
+End of line pos: (1, 2)
+End of line result: 198
+Line: UUUUD
+Move: U
+Move: U
+Move: U
+Move: U
+Move: D
+End of line pos: (1, 1)
+End of line result: 1985
+1985
+
+-------------------<          PART TWO          >-------------------
+
+Total time: 27ms
+
+~=~=~=~=~=~=~=~=~=~<         END OF LOG         >~=~=~=~=~=~=~=~=~=~

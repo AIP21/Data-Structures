@@ -1,0 +1,27 @@
+~=~=~=~=~=~=~=~=~=~< Advent of Code 2016: Day 2 >~=~=~=~=~=~=~=~=~=~
+-------------------<  11-12-2023; 16-10-30-743  >-------------------
+
+-------------------<          PART ONE          >-------------------
+Line: ULL
+End of line pos: (1, 1)
+End of line result: 1
+
+Line: RRDDD
+End of line pos: (1, 1)
+End of line result: 19
+
+Line: LURDL
+End of line pos: (1, 1)
+End of line result: 198
+
+Line: UUUUD
+End of line pos: (1, 1)
+End of line result: 1985
+
+Bathroom code: 1985
+
+-------------------<          PART TWO          >-------------------
+
+Total time: 19ms
+
+~=~=~=~=~=~=~=~=~=~<         END OF LOG         >~=~=~=~=~=~=~=~=~=~

@@ -1,0 +1,5050 @@
+~=~=~=~=~=~=~=~=~=~< Advent of Code 2016: Day 2 >~=~=~=~=~=~=~=~=~=~
+-------------------<  11-12-2023; 16-51-54-199  >-------------------
+
+-------------------<          PART ONE          >-------------------
+Line: DULUDRDDDRLUDURUUULRRRURDRDULRUDDUDRULUDDUDRLDULRRLRDRUDUUULUUDLRURDUDDDDRDLLLLULRDLDRDLRLULRUURDDUULUDLRURRDDRDDRDDLDRDLLUURDRUULRRURURRDLRLLLUDULULULULUDRLLRUDUURLDRLRLRDRRDRLLLDURRDULDURDDRLURRDURLRRRLDLLLDRUUURLRDLDLLLLRDURRLDLULRLDDLDLURLRRDDRUDDUULRURRUDLRDLDUURDDDDRLRURUDULUDLRRLLLLLRDRURLLDLDULUUDLUDDDRLLDRRUDLLURRUUDDRRLLRRLDDDURLDRDRLURRRRDRRRDDUDULULDURRUUURRRDULUUUDDRULDRLLRDLDURLURRLLRUUUULRDURLLDDRLLDLRLRULUUDRURUDLLURUDDRDURLRDRRRDURLDDRDRLRLLURULUUULUDDDULDLRDDDRDLLRRLDRDULLUUUDLDDLDDDLLLLLLLDUDURURDURDRUURRRDDRDUDLULDURDUDURDDDRULDURURURRLURLURLUURLULDLLRUULURDDRLRDDLRDLRRR
+End of line pos: (2, 2)
+End of line result: 9
+
+Line: LUURLRUDRRUDLLDLUDDURULURLUUDUUDDRLUULRDUDDUULDUUDRURDDRRDRLULLRDRDLRLLUURRUULRLDRULUDLDUUDDDRDDLRDLULDRLDUULDLRDLLLDLDLRDUULUDURRULLRLDUDRLLLULUUUULUUDUUURRRDULLUURUDRRLDURRUULDRDULDUDRDUUULUUDDRLUDRLDLDRUUURDLDUDRUDUURLLRRLRLLRRLDULDDULUDUUURULDDUDUDRURRDLULRUDDURDLDLLRRRLDRLULLLRUULDUDLUUDURRLLLRLUDURRDDLDRDDDLURDLDRRUDUDLUDULULRUUUDLUURLLRLDDLURULDURDLRRDDDDURLDDLLDDULLLRLDLDULDUUDDRLDUURDDLDLUUDULRRLRLUURURUURLRLURUURLDRUURLLRDDUUUDULUDDDRDRLDRDRRLRLDULLRRUDLURULULRDRURURLULDUDLRURLRDDRULDDLRD
+End of line pos: (1, 2)
+End of line result: 98
+
+Line: LUDRULUULRRDDDDRRDUURUDDRLDDLDRDURRURULRDLDLDUUDRRDUUDUDLLLRRLDUDDRLDDLRRLRDRLUDLULUDDUUDULDUUULUDLDDURLDURUDLDRUUDRLRRLDLDDULDUUDDLDDLLURDRLRUURDDRUDDUDLDRRLRUDRUULRRRLRULULURDLRRURDRLRULDDDRDUULLURUUUURUDDLRRRRRDURLULDLUULUDRRUDUDRRDDRURDURLRLUDDLDLRRULUDLDDRLDDLDDDLLLLRDLLUULDDLULDLDRDDUDLURUDLDLDDRRUUDDDLRLLLDRRDDDUURDUDURUURRDRLLDUDLDUULLDLDLLUULLRRULDLDRURLDULDRUURDURRURDLRDLLLDRRUDRUUDRURLUDDRURLDURRDLUUDLUUDULLLDDDDRRDLLLDLURULDDRDLUUURRDRRUUDDUL
+End of line pos: (1, 1)
+End of line result: 985
+
+Line: DUUULDUDDDURLLULDDLLUDURLLLURULULURUURDRURLRULLLLDRDDULRRDRRLLLRDDDUULLRRURRULLDDURRRLRDDLULDULLDUDLURRDLDDLURDLRLLDRURLLRLLRRRDRRRURURUUDDLLDDLDDDLRLURUUUULRDLUDDDURLLDDRLDRRLLUDUUULRLLDRRRLRUUDLDUULRLUDRULLLLDUDLLUUDDRUURLURUDRDDDLRURUDRLULLULUUDLDURDULRRDRLDURUULRDRRRDRDRRLRLRDDUULLRDLDURDDDULURRLULDDURDURDDUDURDLLUUULUDULRDDLDRDRUDLLUURDLRDURURULURULLDRLLRRULDLULULDLULRURLRRLUDLLLRLUDLURLULDULDRLLLDLDDDDRDRLRRLRDULUUDULDDLDURDLLLDDDDLLUURRDURLDLUDDLULRUUUDDRRLDLLLRDLLDRRRDDLULLURDDRRRRLDLRLLLRL
+End of line pos: (0, 2)
+End of line result: 9857
+
+Line: LULLRRDURRLDUUDRRURLURURRRLRDRUULUULURLLURRDRULRDURDDDDUULLLLDUULDLULURDRLDLULULDRLLDLLRLRULURUDRUUDULRULLLUDRULUDRLLUDLDRRDRUUURURLRDURDRLRDDDURLURRDLRUUUDUURULULDLUULRDLRRRDRDRLLLDLRRDRLLDDULDRUDRRLULLRDLDUDDULRDDLULRURULRLLLULDLLLLRDLDRURUDUURURLDRLUULLDUDULUDDDULUDLRUDDUDLULLUULUUURULURRULRDDURDDLURLRRDRDLDULRLRDRRRULRDDDRLLDDDDRRRRDRDLULUURDURULDLRDULDUDLDURUDLUDLUDDDUDURDURDDURLLRUDUURRRUDRRRRULLLLDDDLUULLUULRRRULDLURDLULRULDRLR
+End of line pos: (1, 1)
+End of line result: 98575
+
+Bathroom code: 98575
+
+-------------------<          PART TWO          >-------------------
+Line: DULUDRDDDRLUDURUUULRRRURDRDULRUDDUDRULUDDUDRLDULRRLRDRUDUUULUUDLRURDUDDDDRDLLLLULRDLDRDLRLULRUURDDUULUDLRURRDDRDDRDDLDRDLLUURDRUULRRURURRDLRLLLUDULULULULUDRLLRUDUURLDRLRLRDRRDRLLLDURRDULDURDDRLURRDURLRRRLDLLLDRUUURLRDLDLLLLRDURRLDLULRLDDLDLURLRRDDRUDDUULRURRUDLRDLDUURDDDDRLRURUDULUDLRRLLLLLRDRURLLDLDULUUDLUDDDRLLDRRUDLLURRUUDDRRLLRRLDDDURLDRDRLURRRRDRRRDDUDULULDURRUUURRRDULUUUDDRULDRLLRDLDURLURRLLRUUUULRDURLLDDRLLDLRLRULUUDRURUDLLURUDDRDURLRDRRRDURLDDRDRLRLLURULUUULUDDDULDLRDDDRDLLRRLDRDULLUUUDLDDLDDDLLLLLLLDUDURURDURDRUURRRDDRDUDLULDURDUDURDDDRULDURURURRLURLURLUURLULDLLRUULURDDRLRDDLRDLRRR
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: R
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: L
+Move ignored to: (1, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: R
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: U
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: U
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: U
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: L
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: D
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: L
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: R
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: L
+Move ignored to: (1, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: D
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (3, 0)
+Move: L
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: L
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: U
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: D
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: R
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: R
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: U
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (5, 2)
+Move: L
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: L
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: R
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: R
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: R
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: R
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: U
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: U
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: D
+Move ignored to: (4, 1)
+Move: U
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: L
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: R
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: L
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: L
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: L
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (5, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (4, 1)
+Move: U
+Move ignored to: (4, 3)
+Move: D
+Move ignored to: (4, 1)
+Move: U
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: U
+Move ignored to: (3, 4)
+Move: U
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: D
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: U
+Move ignored to: (2, 5)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: U
+Move ignored to: (2, 5)
+Move: U
+Move ignored to: (2, 5)
+Move: L
+Move ignored to: (1, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: L
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (5, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: U
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (5, 2)
+Move: L
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (1, 4)
+Move: L
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: R
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: R
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: R
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: U
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: U
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (5, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (5, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: U
+Move ignored to: (4, 3)
+Move: D
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: D
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: U
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: R
+Move ignored to: (3, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: U
+Move ignored to: (2, 5)
+Move: R
+Move ignored to: (3, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: L
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: L
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: R
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: L
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: L
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (4, 1)
+End of line pos: (3, 1)
+End of line result: C
+
+Line: LUURLRUDRRUDLLDLUDDURULURLUUDUUDDRLUULRDUDDUULDUUDRURDDRRDRLULLRDRDLRLLUURRUULRLDRULUDLDUUDDDRDDLRDLULDRLDUULDLRDLLLDLDLRDUULUDURRULLRLDUDRLLLULUUUULUUDUUURRRDULLUURUDRRLDURRUULDRDULDUDRDUUULUUDDRLUDRLDLDRUUURDLDUDRUDUURLLRRLRLLRRLDULDDULUDUUURULDDUDUDRURRDLULRUDDURDLDLLRRRLDRLULLLRUULDUDLUUDURRLLLRLUDURRDDLDRDDDLURDLDRRUDUDLUDULULRUUUDLUURLLRLDDLURULDURDLRRDDDDURLDDLLDDULLLRLDLDULDUUDDRLDUURDDLDLUUDULRRLRLUURURUURLRLURUURLDRUURLLRDDUUUDULUDDDRDRLDRDRRLRLDULLRRUDLURULULRDRURURLULDUDLRURLRDDRULDDLRD
+Move: L
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: D
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: R
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: R
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: L
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: U
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: R
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: L
+Move ignored to: (1, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: L
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: R
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: D
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: R
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: U
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: L
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: R
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: D
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: U
+Move ignored to: (3, 4)
+Move: L
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: L
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: R
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (1, 4)
+Move: R
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: D
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: R
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: R
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: D
+Move ignored to: (2, -1)
+Move: D
+Move ignored to: (2, -1)
+Move: L
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: L
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: U
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: U
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: R
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: R
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: D
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: L
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: L
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: R
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (0, 1)
+Move: U
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: R
+Move ignored to: (3, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: R
+Move ignored to: (3, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: U
+Move ignored to: (2, 5)
+Move: R
+Move ignored to: (3, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: R
+Move ignored to: (3, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: U
+Move ignored to: (2, 5)
+Move: R
+Move ignored to: (3, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: U
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: D
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: R
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: U
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: D
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+End of line pos: (2, 0)
+End of line result: CD
+
+Line: LUDRULUULRRDDDDRRDUURUDDRLDDLDRDURRURULRDLDLDUUDRRDUUDUDLLLRRLDUDDRLDDLRRLRDRLUDLULUDDUUDULDUUULUDLDDURLDURUDLDRUUDRLRRLDLDDULDUUDDLDDLLURDRLRUURDDRUDDUDLDRRLRUDRUULRRRLRULULURDLRRURDRLRULDDDRDUULLURUUUURUDDLRRRRRDURLULDLUULUDRRUDUDRRDDRURDURLRLUDDLDLRRULUDLDDRLDDLDDDLLLLRDLLUULDDLULDLDRDDUDLURUDLDLDDRRUUDDDLRLLLDRRDDDUURDUDURUURRDRLLDUDLDUULLDLDLLUULLRRULDLDRURLDULDRUURDURRURDLRDLLLDRRUDRUUDRURLUDDRURLDURRDLUUDLUUDULLLDDDDRRDLLLDLURULDDRDLUUURRDRRUUDDUL
+Move: L
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: L
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: R
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: U
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: U
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: U
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: R
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: R
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: U
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: L
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (4, 3)
+Move: D
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: L
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: R
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: U
+Move ignored to: (2, 5)
+Move: U
+Move ignored to: (2, 5)
+Move: R
+Move ignored to: (3, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: U
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (5, 2)
+Move: L
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: L
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (5, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (5, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: U
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (5, 2)
+Move: L
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: L
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: R
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (0, 1)
+Move: U
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: U
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: R
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: L
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: R
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: D
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: U
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: D
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: L
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: D
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: R
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: D
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: R
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (5, 2)
+Move: L
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: U
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: L
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: D
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: L
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: L
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: L
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: D
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (4, 3)
+Move: D
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (4, 1)
+Move: U
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (3, 2)
+End of line pos: (3, 2)
+End of line result: CD8
+
+Line: DUUULDUDDDURLLULDDLLUDURLLLURULULURUURDRURLRULLLLDRDDULRRDRRLLLRDDDUULLRRURRULLDDURRRLRDDLULDULLDUDLURRDLDDLURDLRLLDRURLLRLLRRRDRRRURURUUDDLLDDLDDDLRLURUUUULRDLUDDDURLLDDRLDRRLLUDUUULRLLDRRRLRUUDLDUULRLUDRULLLLDUDLLUUDDRUURLURUDRDDDLRURUDRLULLULUUDLDURDULRRDRLDURUULRDRRRDRDRRLRLRDDUULLRDLDURDDDULURRLULDDURDURDDUDURDLLUUULUDULRDDLDRDRUDLLUURDLRDURURULURULLDRLLRRULDLULULDLULRURLRRLUDLLLRLUDLURLULDULDRLLLDLDDDDRDRLRRLRDULUUDULDDLDURDLLLDDDDLLUURRDURLDLUDDLULRUUUDDRRLDLLLRDLLDRRRDDLULLURDDRRRRLDLRLLLRL
+Move: D
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: L
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: U
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: L
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: R
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: R
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: L
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: D
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: U
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: D
+Move ignored to: (2, -1)
+Move: U
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: R
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: L
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: L
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: D
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (0, 1)
+Move: U
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: R
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: R
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: U
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (5, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (4, 3)
+Move: D
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: D
+Move ignored to: (2, -1)
+Move: D
+Move ignored to: (2, -1)
+Move: L
+Move ignored to: (1, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: U
+Move ignored to: (3, 4)
+Move: L
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: U
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: R
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: R
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: L
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: D
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: L
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (4, 3)
+Move: D
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: D
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: L
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: D
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: R
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: R
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: D
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: L
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: D
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (5, 2)
+Move: L
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: L
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: R
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: U
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (5, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (5, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: L
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: L
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (4, 1)
+Move: U
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: U
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: D
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: L
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: D
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (5, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: L
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: R
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: R
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: D
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: D
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: U
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: U
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: R
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: L
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: R
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: D
+Move ignored to: (2, -1)
+Move: L
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: U
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (2, -1)
+Move: L
+Move ignored to: (1, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (1, 0)
+Move: R
+Move ignored to: (3, 0)
+Move: L
+Move ignored to: (1, 0)
+End of line pos: (2, 0)
+End of line result: CD8D
+
+Line: LULLRRDURRLDUUDRRURLURURRRLRDRUULUULURLLURRDRULRDURDDDDUULLLLDUULDLULURDRLDLULULDRLLDLLRLRULURUDRUUDULRULLLUDRULUDRLLUDLDRRDRUUURURLRDURDRLRDDDURLURRDLRUUUDUURULULDLUULRDLRRRDRDRLLLDLRRDRLLDDULDRUDRRLULLRDLDUDDULRDDLULRURULRLLLULDLLLLRDLDRURUDUURURLDRLUULLDUDULUDDDULUDLRUDDUDLULLUULUUURULURRULRDDURDDLURLRRDRDLDULRLRDRRRULRDDDRLLDDDDRRRRDRDLULUURDURULDLRDULDUDLDURUDLUDLUDDDUDURDURDDURLLRUDUURRRUDRRRRULLLLDDDLUULLUULRRRULDLURDLULRULDRLR
+Move: L
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: L
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (5, 2)
+Move: L
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: L
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: R
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: L
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: D
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (3, 0)
+Move: U
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: D
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: L
+Move ignored to: (0, 3)
+Move: D
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (0, 1)
+Move: U
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: R
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: R
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: R
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: D
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: U
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: L
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: D
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: L
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (4, 1)
+Move: U
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (5, 2)
+Move: L
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: D
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: U
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: L
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (1, 4)
+Move: L
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (5, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (5, 2)
+Move: L
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: R
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: R
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: L
+Move ignored to: (0, 1)
+Move: U
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: R
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: R
+Move ignored to: (3, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: L
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (2, 3)
+Move: L
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: R
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: D
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: U
+Move ignored to: (2, 5)
+Move: D
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: R
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: U
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: R
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: L
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: D
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: D
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: D
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: U
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: U
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: D
+Move valid to: (3, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: L
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: D
+Move ignored to: (1, 0)
+Move: R
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: R
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: R
+Move ignored to: (4, 1)
+Move: D
+Move ignored to: (3, 0)
+Move: L
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: U
+Move ignored to: (1, 4)
+Move: R
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: L
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: L
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (1, 0)
+Move: U
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: D
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: D
+Move ignored to: (0, 1)
+Move: U
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (1, 2)
+Move: D
+Move valid to: (1, 1)
+Move: U
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: D
+Move valid to: (2, 0)
+Move: U
+Move valid to: (2, 1)
+Move: R
+Move valid to: (3, 1)
+Move: L
+Move valid to: (2, 1)
+Move: L
+Move valid to: (1, 1)
+Move: R
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: D
+Move valid to: (2, 1)
+Move: U
+Move valid to: (2, 2)
+Move: U
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: R
+Move ignored to: (4, 3)
+Move: U
+Move ignored to: (3, 4)
+Move: D
+Move valid to: (3, 2)
+Move: R
+Move valid to: (4, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: R
+Move ignored to: (5, 2)
+Move: U
+Move ignored to: (4, 3)
+Move: L
+Move valid to: (3, 2)
+Move: L
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: L
+Move valid to: (0, 2)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: D
+Move ignored to: (0, 1)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: L
+Move ignored to: (-1, 2)
+Move: U
+Move ignored to: (0, 3)
+Move: U
+Move ignored to: (0, 3)
+Move: L
+Move ignored to: (-1, 2)
+Move: R
+Move valid to: (1, 2)
+Move: R
+Move valid to: (2, 2)
+Move: R
+Move valid to: (3, 2)
+Move: U
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: R
+Move valid to: (2, 3)
+Move: D
+Move valid to: (2, 2)
+Move: L
+Move valid to: (1, 2)
+Move: U
+Move valid to: (1, 3)
+Move: L
+Move ignored to: (0, 3)
+Move: R
+Move valid to: (2, 3)
+Move: U
+Move valid to: (2, 4)
+Move: L
+Move ignored to: (1, 4)
+Move: D
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+Move: L
+Move valid to: (2, 3)
+Move: R
+Move valid to: (3, 3)
+End of line pos: (3, 3)
+End of line result: CD8D4
+
+Bathroom code: CD8D4
+
+Total time: 78ms
+
+~=~=~=~=~=~=~=~=~=~<         END OF LOG         >~=~=~=~=~=~=~=~=~=~
