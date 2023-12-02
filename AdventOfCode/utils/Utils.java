@@ -12,6 +12,49 @@ import java.util.List;
 import java.util.Map;
 
 public class Utils {
+    /**
+     * returns the int value of string that is a word digit (one, two, three, etc.)
+     * ignores extra characters after a number, so you can input "onedbfgj" and it
+     * will return 1
+     * 
+     * Works with numbers from one to nine
+     * 
+     * @param in The input string
+     * @return The determined digit or -1 if nothing was found
+     */
+    public static int getDigitFromWord(String in) {
+        if (in.substring(0, Math.min(in.length(), 3)).equals("one")) {
+            return 1;
+        } else if (in.substring(0, Math.min(in.length(), 3)).equals("two")) {
+            return 2;
+        } else if (in.substring(0, Math.min(in.length(), 5)).equals("three")) {
+            return 3;
+        } else if (in.substring(0, Math.min(in.length(), 4)).equals("four")) {
+            return 4;
+        } else if (in.substring(0, Math.min(in.length(), 4)).equals("five")) {
+            return 5;
+        } else if (in.substring(0, Math.min(in.length(), 3)).equals("six")) {
+            return 6;
+        } else if (in.substring(0, Math.min(in.length(), 3)).equals("seven")) {
+            return 7;
+        } else if (in.substring(0, Math.min(in.length(), 5)).equals("eight")) {
+            return 8;
+        } else if (in.substring(0, Math.min(in.length(), 4)).equals("nine")) {
+            return 9;
+        } else {
+            return -1;
+        }
+
+        // else if (in.substring(0, Math.min(in.length(), 4)).equals("zero")) {
+        // return 0;
+        // }
+    }
+
+    // returns true if a character is a digit
+    public static boolean isDigit(char ch) {
+        return ch >= '0' && ch <= '9';
+    }
+
     // Converts an array of integers to a string of its contents
     public static String toString(int[] toConvert) {
         StringBuilder builder = new StringBuilder();

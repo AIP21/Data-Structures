@@ -7,7 +7,7 @@ public class Day3 extends AbstractDay {
     }
 
     public Day3() {
-        super(false);
+        super(false, 2016);
     }
 
     @Override

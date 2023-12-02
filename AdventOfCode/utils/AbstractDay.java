@@ -6,7 +6,6 @@ import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
@@ -18,9 +17,10 @@ import java.util.regex.Pattern;
  * This is a Day class used for Advent of Code
  */
 public abstract class AbstractDay {
-    private boolean PRODUCTION = false;
+    public boolean PRODUCTION = false;
 
-    private final int YEAR = 2017;
+    private final int year;
+
     private final boolean OVERWRITE_INPUT_FILE = false;
 
     private PrintStream printFileWriter = null;
@@ -39,7 +39,9 @@ public abstract class AbstractDay {
      *                  brute force part 1 and it takes like 5 min to run and now
      *                  you need to test part 2)
      */
-    public AbstractDay(boolean skipPart1) {
+    public AbstractDay(boolean skipPart1, int year) {
+        this.year = year;
+
         String thisName = this.getClass().toString().replace("class ", "");
 
         if (!System.getProperty("user.dir").contains("20ani")) {
@@ -51,14 +53,14 @@ public abstract class AbstractDay {
 
         if (!PRODUCTION) {
             // Download and load in the input
-            input = Downloader.downloadInput(YEAR, day, OVERWRITE_INPUT_FILE);
+            input = Downloader.downloadInput(year, day, OVERWRITE_INPUT_FILE);
         } else {
             // Special file loading
             File inputFile = null;
 
             try {
                 // Load from file
-                String filename = "data/Input_2023_" + day + ".data";
+                String filename = "AdventOfCode/AofC" + year + "/data/Input_" + year + "_" + day + ".data";
                 inputFile = new File(filename);
 
                 // Load the production input from the input file
@@ -74,26 +76,7 @@ public abstract class AbstractDay {
                     reader.close();
                 }
             } catch (Exception e) {
-                try {
-                    // Load from file
-                    String filename = "data/" + day + ".txt";
-                    inputFile = new File(filename);
-
-                    // Load the production input from the input file
-                    input = "";
-
-                    if (inputFile != null) {
-                        Scanner reader = new Scanner(inputFile);
-
-                        while (reader.hasNextLine()) {
-                            input += reader.nextLine() + "\n";
-                        }
-
-                        reader.close();
-                    }
-                } catch (Exception e2) {
-                    System.out.println("Error loading files");
-                }
+                System.out.println("Error loading input file: " + Arrays.toString(e.getStackTrace()));
             }
         }
 
@@ -197,14 +180,14 @@ public abstract class AbstractDay {
         String logTimestamp = dateTimeFormatter.format(calendar.getTime());
 
         try {
-            String logsDirectory = runDirectory + "/AdventOfCode/AofC" + YEAR + "/files/logs/" + thisName;
+            String logsDirectory = runDirectory + "/AdventOfCode/AofC" + year + "/files/logs/" + thisName;
             File dir = new File(logsDirectory);
 
             if (!dir.exists()) {
                 dir.mkdirs();
             }
 
-            File file = new File(logsDirectory + "/" + YEAR + "-" + day + " (" + logTimestamp + ").log");
+            File file = new File(logsDirectory + "/" + year + "-" + day + " (" + logTimestamp + ").log");
             file.createNewFile();
 
             printFileWriter = new PrintStream(new BufferedOutputStream(new FileOutputStream(file, true)), true);
@@ -212,7 +195,7 @@ public abstract class AbstractDay {
             e.printStackTrace();
         }
 
-        print("~=~=~=~=~=~=~=~=~=~< Advent of Code " + YEAR + ": Day " + day + " >~=~=~=~=~=~=~=~=~=~");
+        print("~=~=~=~=~=~=~=~=~=~< Advent of Code " + year + ": Day " + day + " >~=~=~=~=~=~=~=~=~=~");
         print("-------------------<  " + logTimestamp + "  >-------------------\n");
     }
     // endregion

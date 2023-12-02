@@ -1,0 +1,98 @@
+~=~=~=~=~=~=~=~=~=~< Advent of Code 2023: Day 1 >~=~=~=~=~=~=~=~=~=~
+-------------------<  12-01-2023; 09-14-31-995  >-------------------
+
+-------------------<          PART ONE          >-------------------
+Result: 53921
+
+-------------------<          PART TWO          >-------------------
+two1n: 2
+wo1ni: -1
+o1nin: -1
+1nine: -1
+nine: 9
+ine: -1
+ne: -1
+e: -1
+eight: 8
+ightw: -1
+ghtwo: -1
+htwot: -1
+twoth: 2
+wothr: -1
+othre: -1
+three: 3
+hree: -1
+ree: -1
+ee: -1
+e: -1
+abcon: -1
+bcone: -1
+cone2: -1
+one2t: 1
+ne2th: -1
+e2thr: -1
+2thre: -1
+three: 3
+hreex: -1
+reexy: -1
+eexyz: -1
+exyz: -1
+xyz: -1
+yz: -1
+z: -1
+xtwon: -1
+twone: 2
+wone3: -1
+one3f: 1
+ne3fo: -1
+e3fou: -1
+3four: -1
+four: 4
+our: -1
+ur: -1
+r: -1
+4nine: -1
+ninee: 9
+ineei: -1
+neeig: -1
+eeigh: -1
+eight: 8
+ights: -1
+ghtse: -1
+htsev: -1
+tseve: -1
+seven: -1
+even2: -1
+ven2: -1
+en2: -1
+n2: -1
+2: -1
+zonei: -1
+oneig: 1
+neigh: -1
+eight: 8
+ight2: -1
+ght23: -1
+ht234: -1
+t234: -1
+234: -1
+34: -1
+4: -1
+7pqrs: -1
+pqrst: -1
+qrsts: -1
+rstsi: -1
+stsix: -1
+tsixt: -1
+sixte: 6
+ixtee: -1
+xteen: -1
+teen: -1
+een: -1
+en: -1
+n: -1
+Result: 331
+
+Total time: 83ms
+
+~=~=~=~=~=~=~=~=~=~<         END OF LOG         >~=~=~=~=~=~=~=~=~=~

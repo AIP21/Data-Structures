@@ -1,5 +1,3 @@
-// package AdventOfCode;
-
 import utils.*;
 
 public class Day2 extends AbstractDay {
@@ -8,7 +6,7 @@ public class Day2 extends AbstractDay {
     }
 
     public Day2() {
-        super(false);
+        super(false, 2017);
     }
 
     @Override
@@ -54,10 +52,10 @@ public class Day2 extends AbstractDay {
     @Override
     public void part2() {
         // testInput("""
-        //         5 9 2 8
-        //         9 4 7 3
-        //         3 8 6 5
-        //         """);
+        // 5 9 2 8
+        // 9 4 7 3
+        // 3 8 6 5
+        // """);
 
         int sum = 0;
 
@@ -83,7 +81,7 @@ public class Day2 extends AbstractDay {
                             // set the result and exit the loop
                             resultOfLine = aVal / bVal;
 
-                            // print("found result", resultOfLine + ",  " + (aVal % bVal));
+                            // print("found result", resultOfLine + ", " + (aVal % bVal));
                             // print("a", aVal);
                             // print("b", bVal);
                             break;
