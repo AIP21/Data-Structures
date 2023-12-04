@@ -1,0 +1,273 @@
+~=~=~=~=~=~=~=~=~=~< Advent of Code 2023: Day 3 >~=~=~=~=~=~=~=~=~=~
+-------------------<  12-03-2023; 00-48-00-488  >-------------------
+
+-------------------<          PART ONE          >-------------------
+not a part num: 652
+pos: 59, 0
+not a part num: 483
+pos: 85, 0
+not a part num: 348
+pos: 49, 1
+not a part num: 54
+pos: 73, 4
+not a part num: 287
+pos: 77, 4
+not a part num: 845
+pos: 78, 6
+not a part num: 563
+pos: 3, 7
+not a part num: 183
+pos: 43, 7
+not a part num: 45
+pos: 89, 9
+not a part num: 22
+pos: 138, 11
+not a part num: 622
+pos: 103, 12
+not a part num: 765
+pos: 122, 14
+not a part num: 609
+pos: 6, 20
+not a part num: 475
+pos: 39, 20
+not a part num: 856
+pos: 71, 20
+not a part num: 137
+pos: 136, 21
+not a part num: 285
+pos: 8, 22
+not a part num: 338
+pos: 35, 23
+not a part num: 22
+pos: 6, 25
+not a part num: 979
+pos: 47, 25
+not a part num: 826
+pos: 72, 25
+not a part num: 682
+pos: 134, 26
+not a part num: 5
+pos: 18, 27
+not a part num: 903
+pos: 99, 27
+not a part num: 497
+pos: 48, 28
+not a part num: 78
+pos: 2, 29
+not a part num: 624
+pos: 119, 29
+not a part num: 173
+pos: 101, 30
+not a part num: 834
+pos: 108, 30
+not a part num: 30
+pos: 53, 32
+not a part num: 914
+pos: 80, 33
+not a part num: 775
+pos: 15, 36
+not a part num: 992
+pos: 71, 36
+not a part num: 634
+pos: 36, 38
+not a part num: 652
+pos: 46, 38
+not a part num: 35
+pos: 96, 38
+not a part num: 419
+pos: 4, 39
+not a part num: 928
+pos: 73, 39
+not a part num: 643
+pos: 138, 40
+not a part num: 864
+pos: 139, 43
+not a part num: 615
+pos: 81, 44
+not a part num: 843
+pos: 84, 46
+not a part num: 681
+pos: 38, 50
+not a part num: 484
+pos: 58, 50
+not a part num: 498
+pos: 74, 50
+not a part num: 346
+pos: 131, 50
+not a part num: 752
+pos: 24, 51
+not a part num: 2
+pos: 95, 51
+not a part num: 586
+pos: 99, 51
+not a part num: 513
+pos: 104, 51
+not a part num: 746
+pos: 125, 51
+not a part num: 527
+pos: 85, 53
+not a part num: 856
+pos: 67, 55
+not a part num: 514
+pos: 27, 56
+not a part num: 257
+pos: 87, 57
+not a part num: 800
+pos: 3, 63
+not a part num: 532
+pos: 21, 63
+not a part num: 15
+pos: 51, 63
+not a part num: 102
+pos: 75, 63
+not a part num: 850
+pos: 34, 64
+not a part num: 405
+pos: 38, 64
+not a part num: 467
+pos: 79, 64
+not a part num: 925
+pos: 4, 65
+not a part num: 659
+pos: 90, 65
+not a part num: 669
+pos: 123, 66
+not a part num: 71
+pos: 138, 66
+not a part num: 914
+pos: 79, 67
+not a part num: 328
+pos: 70, 68
+not a part num: 284
+pos: 117, 70
+not a part num: 638
+pos: 25, 72
+not a part num: 953
+pos: 69, 73
+not a part num: 191
+pos: 33, 74
+not a part num: 451
+pos: 108, 74
+not a part num: 623
+pos: 64, 76
+not a part num: 320
+pos: 35, 77
+not a part num: 918
+pos: 45, 77
+not a part num: 603
+pos: 73, 77
+not a part num: 602
+pos: 25, 80
+not a part num: 700
+pos: 45, 80
+not a part num: 135
+pos: 5, 81
+not a part num: 909
+pos: 19, 82
+not a part num: 52
+pos: 75, 82
+not a part num: 273
+pos: 84, 83
+not a part num: 686
+pos: 101, 84
+not a part num: 888
+pos: 64, 85
+not a part num: 223
+pos: 4, 87
+not a part num: 549
+pos: 12, 87
+not a part num: 775
+pos: 32, 87
+not a part num: 436
+pos: 56, 87
+not a part num: 166
+pos: 72, 90
+not a part num: 920
+pos: 12, 91
+not a part num: 514
+pos: 65, 91
+not a part num: 110
+pos: 79, 91
+not a part num: 841
+pos: 94, 92
+not a part num: 65
+pos: 46, 93
+not a part num: 505
+pos: 139, 93
+not a part num: 774
+pos: 52, 94
+not a part num: 471
+pos: 121, 95
+not a part num: 743
+pos: 14, 97
+not a part num: 955
+pos: 5, 98
+not a part num: 531
+pos: 103, 98
+not a part num: 391
+pos: 139, 99
+not a part num: 519
+pos: 25, 100
+not a part num: 266
+pos: 84, 102
+not a part num: 561
+pos: 5, 104
+not a part num: 906
+pos: 43, 107
+not a part num: 18
+pos: 128, 109
+not a part num: 993
+pos: 24, 110
+not a part num: 223
+pos: 63, 110
+not a part num: 977
+pos: 84, 110
+not a part num: 731
+pos: 129, 111
+not a part num: 513
+pos: 137, 112
+not a part num: 20
+pos: 4, 113
+not a part num: 42
+pos: 21, 113
+not a part num: 78
+pos: 132, 113
+not a part num: 283
+pos: 139, 114
+not a part num: 978
+pos: 114, 117
+not a part num: 924
+pos: 120, 119
+not a part num: 303
+pos: 45, 124
+not a part num: 967
+pos: 75, 125
+not a part num: 137
+pos: 100, 127
+not a part num: 876
+pos: 123, 129
+not a part num: 764
+pos: 17, 131
+not a part num: 764
+pos: 123, 132
+not a part num: 235
+pos: 110, 133
+not a part num: 44
+pos: 100, 134
+not a part num: 342
+pos: 116, 134
+not a part num: 417
+pos: 137, 134
+not a part num: 20
+pos: 72, 136
+not a part num: 238
+pos: 80, 136
+not a part num: 560
+pos: 41, 139
+Result: 537710
+
+-------------------<          PART TWO          >-------------------
+
+Total time: 189ms
+
+~=~=~=~=~=~=~=~=~=~<         END OF LOG         >~=~=~=~=~=~=~=~=~=~
