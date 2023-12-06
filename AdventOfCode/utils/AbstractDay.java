@@ -31,6 +31,7 @@ public abstract class AbstractDay {
     protected IntParser intParser = new IntParser();
     protected FloatParser floatParser = new FloatParser();
     protected DoubleParser doubleParser = new DoubleParser();
+    protected LongParser longParser = new LongParser();
     protected BooleanParser booleanParser = new BooleanParser();
 
     /**
@@ -434,6 +435,38 @@ public abstract class AbstractDay {
             // Parse each substring into an integer
             for (int i = 0; i < tokens.length; i++) {
                 result[i] = Double.parseDouble(tokens[i]);
+            }
+
+            return result;
+        }
+    }
+
+    // long parser
+    protected class LongParser extends AbstractParser<Long> {
+        @Override
+        protected Long parse(String toParse) {
+            return Long.parseLong(toParse);
+        }
+
+        @Override
+        protected Long parseSmart(String toParse) {
+            Matcher matcher = Pattern.compile("\\d+").matcher(toParse);
+            matcher.find();
+
+            return Long.parseLong(matcher.group());
+        }
+
+        @Override
+        public Long[] parseString(String toParse) {
+            // Split the input string by spaces
+            String[] tokens = toParse.trim().split("\\s+");
+
+            // Create an array to store the integers
+            Long[] result = new Long[tokens.length];
+
+            // Parse each substring into an integer
+            for (int i = 0; i < tokens.length; i++) {
+                result[i] = Long.parseLong(tokens[i]);
             }
 
             return result;

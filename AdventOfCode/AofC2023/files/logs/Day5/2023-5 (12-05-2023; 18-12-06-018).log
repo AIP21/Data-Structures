@@ -1,0 +1,59 @@
+~=~=~=~=~=~=~=~=~=~< Advent of Code 2023: Day 5 >~=~=~=~=~=~=~=~=~=~
+-------------------<  12-05-2023; 18-12-06-018  >-------------------
+
+
+-------------------<          PART TWO          >-------------------
+Seed Map: [Range[start=79, length=14], Range[start=55, length=13]]
+
+Map 0:
+98 - 50 > 2
+50 - 52 > 48
+
+Map iteration 0: Range[start=81, length=14], Range[start=57, length=13], 
+
+Map 1:
+15 - 0 > 37
+52 - 37 > 2
+0 - 39 > 15
+
+Map iteration 1: Range[start=81, length=14], Range[start=57, length=13], 
+
+Map 2:
+53 - 49 > 8
+11 - 0 > 42
+0 - 42 > 7
+7 - 57 > 4
+
+Map iteration 2: Range[start=81, length=14], Range[start=61, length=9], Range[start=53, length=4], 
+
+Map 3:
+18 - 88 > 7
+25 - 18 > 70
+
+Map iteration 3: Range[start=74, length=14], Range[start=54, length=9], Range[start=46, length=4], 
+
+Map 4:
+77 - 45 > 23
+45 - 81 > 19
+64 - 68 > 13
+
+Map iteration 4: Range[start=74, length=3], Range[start=45, length=11], Range[start=77, length=11], Range[start=78, length=3], Range[start=90, length=9], Range[start=82, length=4], 
+
+Map 5:
+69 - 0 > 1
+0 - 1 > 69
+
+Map iteration 5: Range[start=74, length=3], Range[start=46, length=11], Range[start=77, length=11], Range[start=78, length=3], Range[start=90, length=9], Range[start=82, length=4], 
+
+Map 6:
+56 - 60 > 37
+93 - 56 > 4
+
+Map iteration 6: Range[start=78, length=3], Range[start=46, length=10], Range[start=60, length=1], Range[start=81, length=11], Range[start=82, length=3], Range[start=93, length=6], Range[start=94, length=3], Range[start=90, length=3], Range[start=97, length=2], Range[start=56, length=4], Range[start=86, length=4], 
+
+Lowest index: 1
+Lowest location: 46
+
+Total time: 71ms
+
+~=~=~=~=~=~=~=~=~=~<         END OF LOG         >~=~=~=~=~=~=~=~=~=~

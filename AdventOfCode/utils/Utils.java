@@ -127,4 +127,52 @@ public class Utils {
         }
         return new String(hexChars, StandardCharsets.UTF_8);
     }
+
+    public record Range(long start, long length) implements Comparable<Range> {
+        public Range {
+            if (length <= 0) {
+                throw new IllegalArgumentException();
+            }
+        }
+
+        public static Range from(long l) {
+            return new Range(l, 1);
+        }
+
+        public static Range fromTo(long from, long to) {
+            return new Range(from, to - from);
+        }
+
+        public long length() {
+            return length;
+        }
+
+        public long start() {
+            return start;
+        }
+
+        public long end() {
+            return start + length;
+        }
+
+        public boolean intersects(Range other) {
+            return start() < other.end() && other.start() < end();
+        }
+
+        public Range intersection(Range other) {
+            long left = Long.max(start(), other.start());
+            long right = Long.min(end(), other.end());
+            return new Range(left, right - left);
+        }
+
+        @Override
+        public int compareTo(Range o) {
+            return Long.compare(start, o.start);
+        }
+
+        @Override
+        public String toString() {
+            return "[" + start + ", " + end() + "]";
+        }
+    }
 }

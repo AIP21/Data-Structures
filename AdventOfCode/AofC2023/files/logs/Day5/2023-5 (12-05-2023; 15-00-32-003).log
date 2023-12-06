@@ -1,0 +1,27 @@
+~=~=~=~=~=~=~=~=~=~< Advent of Code 2023: Day 5 >~=~=~=~=~=~=~=~=~=~
+-------------------<  12-05-2023; 15-00-32-003  >-------------------
+
+
+-------------------<          PART TWO          >-------------------
+Seed Map: {0=[79 - 92], 2=[55 - 67]}
+Day5$SeedMap@5a2e4553
+Day5$SeedMap@28c97a5
+Day5$SeedMap@6659c656
+Day5$SeedMap@6d5380c2
+Day5$SeedMap@45ff54e6
+Day5$SeedMap@2328c243
+Day5$SeedMap@bebdb06
+Map iteration 0: {0=[81 - 94], 2=[57 - 69]}
+Map iteration 1: {0=[81 - 94], 2=[57 - 69]}
+Map iteration 2: {0=[81 - 94], 2=[53 - 65]}
+Map iteration 3: {0=[74 - 87], 2=[46 - 58]}
+Map iteration 4: {0=[78 - 91], 2=[82 - 94]}
+Map iteration 5: {0=[78 - 91], 2=[82 - 94]}
+Map iteration 6: {0=[82 - 95], 2=[86 - 98]}
+Seed 0: Location [82 - 95]
+Seed 2: Location [86 - 98]
+Lowest location: 82
+
+Total time: 40ms
+
+~=~=~=~=~=~=~=~=~=~<         END OF LOG         >~=~=~=~=~=~=~=~=~=~

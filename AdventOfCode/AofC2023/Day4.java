@@ -29,18 +29,21 @@ public class Day4 extends AbstractDay {
 
         int sum = 0;
 
+        // Go through every line in the input
         for (int i = 0; i < lines.size(); i++) {
+            // Edit out the card name from the line string
             String cardName = lines.get(i).substring(lines.get(i).indexOf(":") + 1).replace("|", "-");
 
             // print(cardName);
 
+            // Split the card name into two parts
             String[] split = cardName.split("-");
 
             // print(split[0]);
             // print(split[1]);
 
+            // Parse out the winning numbers and my numbers
             ArrayList<Integer> winningNums = new ArrayList<>(Arrays.asList(intParser.parseString(split[0])));
-
             Integer[] myNums = intParser.parseString(split[1]);
 
             // print("Winning", winningNums);
@@ -48,13 +51,19 @@ public class Day4 extends AbstractDay {
             int score = 0;
             int matches = 0;
 
+            // Find the number of matches to calculate the score
             for (int num : myNums) {
                 if (winningNums.contains(num)) {
-                    score = (int) Math.pow(2, matches++);
+                    matches++;
                 }
             }
 
+            // Set the score to 2^matches
+            score = (int) Math.pow(2, matches);
+
             // print("Score", score);
+
+            // Add the score to the sum of scores
             sum += score;
         }
 
