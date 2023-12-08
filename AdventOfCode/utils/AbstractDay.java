@@ -45,9 +45,9 @@ public abstract class AbstractDay {
 
         String thisName = this.getClass().toString().replace("class ", "");
 
-        if (!System.getProperty("user.dir").contains("20ani")) {
-            PRODUCTION = true;
-        }
+        // if (!System.getProperty("user.dir").contains("20ani")) {
+        //     PRODUCTION = true;
+        // }
 
         // Get the day number for this class (from filename)
         int day = Integer.parseInt(thisName.replace("Day", "").replace("Prob", ""));

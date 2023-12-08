@@ -1,6 +1,9 @@
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Set;
 
 import utils.*;
+import java.util.stream.*;
 
 public class Day8 extends AbstractDay {
     public static void main(String[] args) {
@@ -20,6 +23,12 @@ public class Day8 extends AbstractDay {
             this.name = name;
             this.left = left;
             this.right = right;
+        }
+
+        @Override
+        public String toString() {
+            return this.name + " = " + (left == null ? "null" : left.name) + ", "
+                    + (right == null ? "null" : right.name);
         }
     }
 
@@ -55,13 +64,16 @@ public class Day8 extends AbstractDay {
         // ZZZ = (ZZZ, ZZZ)
         // """);
 
-        String instructions = lines.remove(0);
-
-        lines.remove(0);
+        String instructions = lines.get(0);
 
         ArrayList<Node> nodes = new ArrayList<>();
 
+        int i =0;
         for (String line : lines) {
+            if (i++ < 2){
+                continue;
+            }
+
             String[] split = line.split(" = ");
             String[] connected = split[1].replace("(", "").replace(")", "").split(", ");
 
@@ -98,12 +110,12 @@ public class Day8 extends AbstractDay {
         print("Steps to done", steps);
     }
 
-    private ArrayList<Node> findNodes(ArrayList<Node> nodes, char end) {
-        ArrayList<Node> found = new ArrayList<>();
+    private HashMap<Node, Integer> findNodes(ArrayList<Node> nodes, char end) {
+        HashMap<Node, Integer> found = new HashMap<>();
 
         for (Node node : nodes) {
-            if (node.name.charAt(node.name.length() - 1) == end) {
-                found.add(node);
+            if (node.name.charAt(2) == end) {
+                found.put(node, -1);
             }
         }
 
@@ -143,38 +155,36 @@ public class Day8 extends AbstractDay {
             node.right = findNode(nodes, node.right.name);
         }
 
-        ArrayList<Node> currentNodes = findNodes(nodes, 'A');
+        HashMap<Node, Integer> startNodeLengths = findNodes(nodes, 'A');
+        ArrayList<Node> currentNodes = new ArrayList<>(startNodeLengths.keySet());
 
-        int steps = 0;
+        for (Node start : currentNodes) {
+            int steps = 0;
+            Node current = start;
+            boolean done = false;
 
-        boolean done = false;
-
-        while (!done) {
-            int atEnd = 0;
-
-            for (int i = 0; i < currentNodes.size(); i++) {
+            while (!done) {
                 char instruction = instructions.charAt(steps % instructions.length());
 
                 if (instruction == 'L') {
-                    currentNodes.set(i, currentNodes.get(i).left);
+                    current = current.left;
                 } else if (instruction == 'R') {
-                    currentNodes.set(i, currentNodes.get(i).right);
+                    current = current.right;
                 }
 
-                Node afterMove = currentNodes.get(i);
+                steps++;
 
-                if (afterMove.name.charAt(afterMove.name.length() - 1) == 'Z') {
-                    atEnd++;
+                if (current.name.charAt(2) == 'Z') {
+                    done = true;
                 }
             }
 
-            if (atEnd == currentNodes.size()) {
-                done = true;
-            }
-
-            steps++;
+            startNodeLengths.put(start, steps);
         }
 
-        print("Steps to done", steps);
+        int[] lengths = startNodeLengths.values().stream().mapToInt(Integer::intValue).toArray();
+        long lcm = MathHelper.lcm(lengths);
+
+        print("Steps to done", lcm);
     }
 }

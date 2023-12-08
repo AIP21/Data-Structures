@@ -777,4 +777,86 @@ public class MathHelper {
     //     points.add(end);
 
     // }
+
+    /**
+     * Returns the greatest common divisor of two numbers.
+     * 
+     * @param number1 The first number
+     * @param number2 The second number
+     * @return The greatest common divisor of the two numbers
+     */
+    public static int lcm(int number1, int number2) {
+        if (number1 == 0 || number2 == 0) {
+            return 0;
+        }
+        int absNumber1 = Math.abs(number1);
+        int absNumber2 = Math.abs(number2);
+        int absHigherNumber = Math.max(absNumber1, absNumber2);
+        int absLowerNumber = Math.min(absNumber1, absNumber2);
+        int lcm = absHigherNumber;
+        while (lcm % absLowerNumber != 0) {
+            lcm += absHigherNumber;
+        }
+        return lcm;
+    }
+
+    /**
+     * Returns the least common multiple of two numbers.
+     * 
+     * @param numbers The array of numbers
+     * @return The least common multiple of the numbers
+     */
+    public static long lcm(int[] numbers)
+    {
+        long lcmOfNumbers = 1;
+        int divisor = 2;
+         
+        while (true) {
+            int counter = 0;
+            boolean divisible = false;
+             
+            for (int i = 0; i < numbers.length; i++) {
+ 
+                // lcmOfNumbers (n1, n2, ... 0) = 0.
+                // For negative number we convert into
+                // positive and calculate lcmOfNumbers.
+ 
+                if (numbers[i] == 0) {
+                    return 0;
+                }
+                else if (numbers[i] < 0) {
+                    numbers[i] = numbers[i] * (-1);
+                }
+                if (numbers[i] == 1) {
+                    counter++;
+                }
+ 
+                // Divide element_array by devisor if complete
+                // division i.e. without remainder then replace
+                // number with quotient; used for find next factor
+                if (numbers[i] % divisor == 0) {
+                    divisible = true;
+                    numbers[i] = numbers[i] / divisor;
+                }
+            }
+ 
+            // If divisor able to completely divide any number
+            // from array multiply with lcmOfNumbers
+            // and store into lcmOfNumbers and continue
+            // to same divisor for next factor finding.
+            // else increment divisor
+            if (divisible) {
+                lcmOfNumbers = lcmOfNumbers * divisor;
+            }
+            else {
+                divisor++;
+            }
+ 
+            // Check if all element_array is 1 indicate 
+            // we found all factors and terminate while loop.
+            if (counter == numbers.length) {
+                return lcmOfNumbers;
+            }
+        }
+    }
 }
