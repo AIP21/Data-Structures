@@ -1,0 +1,77 @@
+~=~=~=~=~=~=~=~=~=~< Advent of Code 2023: Day 7 >~=~=~=~=~=~=~=~=~=~
+-------------------<  12-07-2023; 23-16-23-081  >-------------------
+
+-------------------<          PART ONE          >-------------------
+Total Winnings: 248396258
+
+-------------------<          PART TWO          >-------------------
+37973: Two pair
+555K2: Three of a kind
+42422: Full house
+3AAAA: Four of a kind
+A77A4: Two pair
+K9QQK: Two pair
+67K36: One pair
+933J4: Full house
+QQ98Q: Three of a kind
+22KK6: Two pair
+2AKAK: Two pair
+7775J: Four of a kind
+3T586: High card
+34J58: One pair
+3353T: Three of a kind
+TT353: Two pair
+5777A: Three of a kind
+79333: Three of a kind
+7TK8T: One pair
+K7A3Q: High card
+KK6Q4: One pair
+T5AKA: One pair
+858TT: Two pair
+A7KA8: One pair
+67676: Full house
+T966T: Two pair
+9Q765: High card
+23Q92: One pair
+356A6: One pair
+996Q9: Three of a kind
+6398Q: High card
+52552: Full house
+3T586, 6398Q, 9Q765, K7A3Q, 23Q92, 34J58, 356A6, 67K36, 7TK8T, T5AKA, KK6Q4, A7KA8, 22KK6, 2AKAK, 37973, 858TT, T966T, TT353, K9QQK, A77A4, 3353T, 555K2, 5777A, 79333, 996Q9, QQ98Q, 42422, 52552, 67676, 933J4, 3AAAA, 7775J, 
+952 * 1
+578 * 2
+566 * 3
+444 * 4
+322 * 5
+132 * 6
+957 * 7
+694 * 8
+242 * 9
+256 * 10
+575 * 11
+731 * 12
+306 * 13
+77 * 14
+197 * 15
+670 * 16
+616 * 17
+480 * 18
+785 * 19
+530 * 20
+773 * 21
+816 * 22
+459 * 23
+280 * 24
+687 * 25
+267 * 26
+45 * 27
+107 * 28
+92 * 29
+320 * 30
+699 * 31
+518 * 32
+Total Winnings: 233731
+
+Total time: 72ms
+
+~=~=~=~=~=~=~=~=~=~<         END OF LOG         >~=~=~=~=~=~=~=~=~=~

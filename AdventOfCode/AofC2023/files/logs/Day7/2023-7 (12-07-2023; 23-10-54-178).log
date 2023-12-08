@@ -1,0 +1,33 @@
+~=~=~=~=~=~=~=~=~=~< Advent of Code 2023: Day 7 >~=~=~=~=~=~=~=~=~=~
+-------------------<  12-07-2023; 23-10-54-178  >-------------------
+
+-------------------<          PART ONE          >-------------------
+Total Winnings: 248396258
+
+-------------------<          PART TWO          >-------------------
+35229: One pair
+Q379J: High card
+88Q8Q: Full house
+A8725: High card
+9959J: Four of a kind
+Q7AA2: One pair
+J7Q5J: Four of a kind
+44644: Four of a kind
+222J9: Four of a kind
+475TK: High card
+475TK, Q379J, A8725, 35229, Q7AA2, 88Q8Q, J7Q5J, 222J9, 44644, 9959J, 
+461 * 1
+837 * 2
+531 * 3
+30 * 4
+79 * 5
+841 * 6
+446 * 7
+43 * 8
+73 * 9
+588 * 10
+Total Winnings: 19292
+
+Total time: 113ms
+
+~=~=~=~=~=~=~=~=~=~<         END OF LOG         >~=~=~=~=~=~=~=~=~=~

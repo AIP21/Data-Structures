@@ -1,0 +1,23 @@
+~=~=~=~=~=~=~=~=~=~< Advent of Code 2023: Day 7 >~=~=~=~=~=~=~=~=~=~
+-------------------<  12-07-2023; 23-08-25-298  >-------------------
+
+-------------------<          PART ONE          >-------------------
+Total Winnings: 248396258
+
+-------------------<          PART TWO          >-------------------
+32T3K: One pair
+T55J5: Three of a kind
+KK677: Two pair
+KTJJT: Two pair
+QQQJA: Three of a kind
+32T3K, T55J5, KK677, KTJJT, QQQJA, 
+765 * 1
+684 * 2
+28 * 3
+220 * 4
+483 * 5
+Total Winnings: 5512
+
+Total time: 66ms
+
+~=~=~=~=~=~=~=~=~=~<         END OF LOG         >~=~=~=~=~=~=~=~=~=~
