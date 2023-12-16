@@ -2,12 +2,12 @@ import time
 import cv2
 import numpy as np 
   
-# define a video capture object 
-vid = cv2.VideoCapture(0)
-# vid.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
-# vid.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+# define a video capture object
+vid = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+# vid.set(cv2.CAP_PROP_FRAME_WIDTH, 3264)
+# vid.set(cv2.CAP_PROP_FRAME_HEIGHT, 2448)
 
-frameHistory = 30
+frameHistory = 10
 lastXFrames = []
 
 for i in range(frameHistory):
@@ -17,6 +17,21 @@ contrast = 1.5
 brightness = 1
 
 overlayTransparency = 0.1
+
+def ResizeWithAspectRatio(image, width=None, height=None, inter=cv2.INTER_AREA):
+    dim = None
+    (h, w) = image.shape[:2]
+
+    if width is None and height is None:
+        return image
+    if width is None:
+        r = height / float(h)
+        dim = (int(w * r), height)
+    else:
+        r = width / float(w)
+        dim = (width, int(h * r))
+
+    return cv2.resize(image, dim, interpolation=inter)
 
 while(True):
     # Capture the video frame by frame 
@@ -32,10 +47,12 @@ while(True):
     lastXFrames[0] = frame.copy()
         
     # Display the original frame
+    # resize = ResizeWithAspectRatio(frame, width=1280) # Resize by width OR
+    # imS = cv2.resize(frame, (1280, 720))                # Resize image
     cv2.imshow('original', frame)
     
-    grayFrame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    
+    # grayFrame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        
     channels = [None, None, None]
     channels[0] = np.zeros((frame.shape[0], frame.shape[1]), dtype = np.uint8)
     channels[1] = np.zeros((frame.shape[0], frame.shape[1]), dtype = np.uint8)
@@ -47,16 +64,16 @@ while(True):
         # Make sure the oldest frame is not None
         if lastXFrames[index] is not None:
             # Get the oldest frame
-            oldestFrame = cv2.cvtColor(lastXFrames[index], cv2.COLOR_BGR2GRAY)
+            oldestFrame = cv2.extractChannel(lastXFrames[index], e) # cv2.cvtColor(lastXFrames[index], cv2.COLOR_BGR2GRAY)
             
             # Invert the oldest frame
             oldestFrame = cv2.bitwise_not(oldestFrame)
             
             # Overlay the inverted with a 50% transparency over the current frame
-            channels[e] = cv2.addWeighted(grayFrame, overlayTransparency, oldestFrame, 1 - overlayTransparency, 0)
+            channels[e] = cv2.addWeighted(cv2.extractChannel(frame, e), overlayTransparency, oldestFrame, 1 - overlayTransparency, 0)
             
             # Display the original frame
-            cv2.imshow('channel' + str(e), channels[e])
+            # cv2.imshow('channel' + str(e), channels[e])
     
     frame = cv2.merge((channels[0], channels[1], channels[2]))
     

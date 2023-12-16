@@ -2,12 +2,12 @@ import java.util.HashMap;
 
 import utils.*;
 
-public class Day1 extends AbstractDay {
+public class Prob01 extends AbstractDay {
     public static void main(String[] args) {
-        new Day1(args == null ? null : args[0]);
+        new Prob01(args == null ? null : args[0]);
     }
 
-    public Day1(String inputPath) {
+    public Prob01(String inputPath) {
         super(false, 2023, inputPath);
     }
 

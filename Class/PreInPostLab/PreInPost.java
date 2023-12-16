@@ -238,7 +238,9 @@ public class PreInPost {
       result += S.pop() + " ";
     }
 
-    return result;
+    // Return the string without any extra space characters
+    // at the end of the string
+    return result.trim();
   }
 
   /**
@@ -252,66 +254,102 @@ public class PreInPost {
     String reversedExpression = reverseExpression(expr);
 
     // Get the post-fix expression of the reversed input expression
-    String postFix = "";
-    LinkedStack<String> S = new LinkedStack<String>();
+    String postFix = inToPostFix(reversedExpression);
 
-    String[] tokens = reversedExpression.split(" ");
-
-    for (String t : tokens) {
-      // If t is a left-parenthesis, push it onto S
-      if (t.equals("(")) {
-        S.push(t);
-      }
-
-      // If t is a right-parenthesis, pop S and concatenate to the result
-      else if (t.equals(")")) {
-
-        // Add everything inside the parentheses to the result
-        while (!S.isEmpty() && !S.top().equals("(")) {
-          postFix += S.pop() + " ";
-        }
-
-        // Pop the opening parenthesis off
-        S.pop();
-      }
-
-      // If t is an operator
-      else if (isOperator(t)) {
-        // If the stack is empty, is within an open parenthesis, or if t's precedence is
-        // greater than the precedence of the operator on top, then push t onto S.
-        // This is becuase higher precendence operators should be evaluated first.
-        if (S.isEmpty() || S.top().equals("(") || precedence(t) > precedence(S.top())) {
-          S.push(t);
-        }
-
-        // Otherwise, get operators whose precedence is greater than or equal to t's
-        // precedence, pop all of them and add them to the result.
-        // Once that is done, push t onto S.
-        // Since t is the lowest operator, it should be evaluated last.
-        else {
-          while (!S.isEmpty() && precedence(t) < precedence(S.top())) {
-            postFix += S.pop() + " ";
-          }
-
-          S.push(t);
-        }
-      }
-
-      // Otherwise, t must be an operand so just add it to the result
-      else {
-        postFix += t + " ";
-      }
-    }
-
-    // Add the remaining of the operators to the result
-    while (!S.isEmpty()) {
-      postFix += S.pop() + " ";
-    }
+    /*
+     ******************* NOTE! *******************
+     * 
+     * I used a website:
+     * https://raj457036.github.io/Simple-Tools/prefixAndPostfixConvertor.html
+     * to cross check the correct answer file you gave us
+     * and it outputted a slightly different expression for prefix.
+     * This isn't limited to that website, though, since other
+     * websites also output the same, slightly different, prefix expression.
+     * 
+     * Moreover, your correct answers file provides a different result
+     * when it evaluates the postfix version of an expression compared
+     * to when it evaluates the prefix version of an expression.
+     * Look at lines 16 and 17 of the output.
+     * 
+     * Within this comment is a modified version of this
+     * method's logic that resolves that issue and produces
+     * what seems to be the true correct answer (according to those websites).
+     * 
+     * What this method currently contains is a version of the code
+     * that outputs what is in your correct answers file.
+     * 
+     * Uncomment this code and comment out line 257 if you
+     * would like to test the supposedly correct code.
+     * 
+     *********************************************
+     * 
+     * 
+     * 
+     * String postFix = "";
+     * LinkedStack<String> S = new LinkedStack<String>();
+     * 
+     * String[] tokens = reversedExpression.split(" ");
+     * 
+     * for (String t : tokens) {
+     * // If t is a left-parenthesis, push it onto S
+     * if (t.equals("(")) {
+     * S.push(t);
+     * }
+     * 
+     * // If t is a right-parenthesis, pop S and concatenate to the result
+     * else if (t.equals(")")) {
+     * 
+     * // Add everything inside the parentheses to the result
+     * while (!S.isEmpty() && !S.top().equals("(")) {
+     * postFix += S.pop() + " ";
+     * }
+     * 
+     * // Pop the opening parenthesis off
+     * S.pop();
+     * }
+     * 
+     * // If t is an operator
+     * else if (isOperator(t)) {
+     * // If the stack is empty, is within an open parenthesis, or if t's precedence
+     * is
+     * // greater than the precedence of the operator on top, then push t onto S.
+     * // This is becuase higher precendence operators should be evaluated first.
+     * if (S.isEmpty() || S.top().equals("(") || precedence(t) >
+     * precedence(S.top())) {
+     * S.push(t);
+     * }
+     * 
+     * // Otherwise, get operators whose precedence is greater than or equal to t's
+     * // precedence, pop all of them and add them to the result.
+     * // Once that is done, push t onto S.
+     * // Since t is the lowest operator, it should be evaluated last.
+     * else {
+     * while (!S.isEmpty() && precedence(t) < precedence(S.top())) {
+     * postFix += S.pop() + " ";
+     * }
+     * 
+     * S.push(t);
+     * }
+     * }
+     * 
+     * // Otherwise, t must be an operand so just add it to the result
+     * else {
+     * postFix += t + " ";
+     * }
+     * }
+     * 
+     * // Add the remaining of the operators to the result
+     * while (!S.isEmpty()) {
+     * postFix += S.pop() + " ";
+     * }
+     */
 
     // Reverse the post-fix expression to get the pre-fix expression
     String preFix = reverseExpression(postFix);
 
-    return preFix;
+    // Return the string without any extra space characters
+    // at the end of the string
+    return preFix.trim();
   }
 
   /**

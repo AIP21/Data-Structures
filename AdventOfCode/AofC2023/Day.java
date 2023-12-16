@@ -2,16 +2,16 @@ import utils.*;
 
 public class Day extends AbstractDay {
     public static void main(String[] args) {
-        new Day();
+        new Day(args == null ? null : args[0]);
     }
 
-    public Day() {
-        super(false, 2023);
+    public Day(String inputPath) {
+        super(false, 2023, inputPath);
     }
 
     @Override
     public void part1() {
-        
+
     }
 
     @Override

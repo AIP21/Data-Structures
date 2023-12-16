@@ -34,20 +34,103 @@ public abstract class AbstractDay {
     protected LongParser longParser = new LongParser();
     protected BooleanParser booleanParser = new BooleanParser();
 
+    private boolean skipPart1 = false;
+
     /**
+     * The abstract day for any day in Advent of Code.
      * 
      * @param skipPart1 Whether or not to skip part 1 (in the common case that you
      *                  brute force part 1 and it takes like 5 min to run and now
-     *                  you need to test part 2)
+     *                  you need to test part 2).
+     * @param year      The Advent of Code year.
+     * @param inputFile The path to the input file for this day. If null or an empty
+     *                  string, the input file will automatically be downloaded
+     *                  using the session.txt file in the AdventOfCode folder.
+     */
+    public AbstractDay(boolean skipPart1, int year, String inputFile) {
+        this.year = year;
+        this.skipPart1 = skipPart1;
+
+        // Get the problem input
+        getInput(inputFile);
+
+        // Run both parts of the problem
+        runParts();
+    }
+
+    /**
+     * 
+     * The abstract day for any day in Advent of Code.
+     * 
+     * THIS CONSTRUCTOR SHOULD NOT BE USED ANYMORE!
+     * You should always pass the input filename, if empty it'll just auto
+     * download/load the input from file.
+     * 
+     * @param skipPart1 Whether or not to skip part 1 (in the common case that you
+     *                  brute force part 1 and it takes like 5 min to run and now
+     *                  you need to test part 2).
+     * @param year      The advent of code year.
      */
     public AbstractDay(boolean skipPart1, int year) {
         this.year = year;
+        this.skipPart1 = skipPart1;
 
+        // Get the problem input
+        getInput(null);
+
+        // Run both parts of the problem
+        runParts();
+    }
+
+    /**
+     * Gets the input for the day.
+     * 
+     * @param inputFile The path to the input file. If null or an empty string, it
+     *                  automatically downloads/loads the input file.
+     */
+    private void getInput(String inputFile) {
         String thisName = this.getClass().toString().replace("class ", "");
 
-        // if (!System.getProperty("user.dir").contains("20ani")) {
-        //     PRODUCTION = true;
-        // }
+        // Determine if this is my laptop or Mr. Iwanski's laptop
+        if (!System.getProperty("user.dir").contains("20ani")) {
+            this.PRODUCTION = true;
+        }
+
+        // If the input file is not null, then just load from the input
+        if (inputFile == null || inputFile == "") {
+            // Special file loading
+            File file = null;
+
+            try {
+                // Load from file
+                file = new File(inputFile);
+
+                // Load the production input from the input file
+                input = "";
+
+                if (file != null) {
+                    Scanner reader = new Scanner(file);
+
+                    while (reader.hasNextLine()) {
+                        input += reader.nextLine() + "\n";
+                    }
+
+                    reader.close();
+                }
+            } catch (Exception e) {
+                System.out.println("Error loading input file: " + Arrays.toString(e.getStackTrace()));
+            }
+            
+        // Read every line in the file and put it into a list
+        lines = getLines(input);
+
+        // Calculate log timestamp
+        if (!PRODUCTION) {
+            setupLogging();
+        }
+
+            return;
+        }
 
         // Get the day number for this class (from filename)
         int day = Integer.parseInt(thisName.replace("Day", "").replace("Prob", ""));
@@ -57,18 +140,18 @@ public abstract class AbstractDay {
             input = Downloader.downloadInput(year, day, OVERWRITE_INPUT_FILE);
         } else {
             // Special file loading
-            File inputFile = null;
+            File file = null;
 
             try {
                 // Load from file
                 String filename = "AdventOfCode/AofC" + year + "/data/Input_" + year + "_" + day + ".data";
-                inputFile = new File(filename);
+                file = new File(filename);
 
                 // Load the production input from the input file
                 input = "";
 
-                if (inputFile != null) {
-                    Scanner reader = new Scanner(inputFile);
+                if (file != null) {
+                    Scanner reader = new Scanner(file);
 
                     while (reader.hasNextLine()) {
                         input += reader.nextLine() + "\n";
@@ -88,7 +171,12 @@ public abstract class AbstractDay {
         if (!PRODUCTION) {
             setupLogging();
         }
+    }
 
+    /**
+     * Runs both parts of the day.
+     */
+    private void runParts() {
         long start = System.currentTimeMillis();
         if (!skipPart1) {
             print("-------------------<          PART ONE          >-------------------");

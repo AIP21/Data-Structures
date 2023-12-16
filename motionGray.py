@@ -2,12 +2,12 @@ import time
 import cv2
 import numpy as np 
   
-# define a video capture object 
-vid = cv2.VideoCapture(0)
-# vid.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
-# vid.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+# define a video capture object
+vid = cv2.VideoCapture(1, cv2.CAP_DSHOW)
+vid.set(cv2.CAP_PROP_FRAME_WIDTH, 3264)
+vid.set(cv2.CAP_PROP_FRAME_HEIGHT, 2448)
 
-frameHistory = 6
+frameHistory = 2
 lastXFrames = []
 
 for i in range(frameHistory):
@@ -33,7 +33,7 @@ while(True):
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     
     # Display the original frame
-    cv2.imshow('original', frame)
+    # cv2.imshow('original', frame)
 
     # Copy the current frame to the first frame
     lastXFrames[0] = frame.copy()
@@ -47,7 +47,9 @@ while(True):
         frame = cv2.addWeighted(oldestFrame, overlayTransparency, frame, 1 - overlayTransparency, 0)
     
     # Display the frame
-    cv2.imshow('currentFrame', frame)
+    imS = cv2.resize(frame, (1920, 1080))                # Resize image
+
+    cv2.imshow('currentFrame', imS)
       
     # the 'q' button is set as the quit button
     if cv2.waitKey(1) & 0xFF == ord('q'): 
