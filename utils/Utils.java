@@ -1,5 +1,6 @@
 package utils;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Utils {
@@ -13,5 +14,26 @@ public class Utils {
         }
 
         return builder.toString();
+    }
+
+    public static String reverseString(String toReverse) {
+        StringBuilder builder = new StringBuilder();
+
+        for (int i = toReverse.length() - 1; i >= 0; i--) {
+            builder.append(toReverse.charAt(i));
+        }
+
+        return builder.toString();
+    }
+
+    // Reverses a list of objects
+    public static List reverseList(List toReverse) {
+        List reversed = new ArrayList();
+
+        for (int i = toReverse.size() - 1; i >= 0; i--) {
+            reversed.add(toReverse.get(i));
+        }
+
+        return reversed;
     }
 }

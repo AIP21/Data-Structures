@@ -38,4 +38,9 @@ public class LinkedStack<E> implements Stack<E> {
         // Check if the singly linked list is empty
         return list.isEmpty();
     }
+
+    public String toString() {
+        // Return the singly linked list as a string
+        return list.toString();
+    }
 }
