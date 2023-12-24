@@ -3,6 +3,7 @@
 // ArrayList will be our underlying data structure, 
 // essentially used as a stack ADT
 import java.util.ArrayList;
+import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class TowersOfHanoi {
@@ -12,6 +13,8 @@ public class TowersOfHanoi {
 
   // maintain a count of the number of moves
   private static int count;
+
+  private static int countDrawn = -1;
 
   // the game state for Towers of Hanoi puzzle will
   // be an ArrayList of ArrayLists of Integers. Each list
@@ -32,25 +35,36 @@ public class TowersOfHanoi {
   private static final String ANSI_WHITE = "\u001B[37m";
 
   private static final String[] ANSI_COLORS = {
-      ANSI_RESET,
-      ANSI_BLACK,
       ANSI_RED,
       ANSI_GREEN,
       ANSI_YELLOW,
       ANSI_BLUE,
       ANSI_PURPLE,
       ANSI_CYAN,
+      ANSI_BLACK,
       ANSI_WHITE,
   };
 
   // The total number of discs
   private static int totalDiscs;
 
+  private static boolean printInfo = false;
+
+  // Title animation variables
+  private static final int TITLE_ANIM_LINE_SPEED = 5; // ms
+  private static int TITLE_ANIM_TEXT_SPEED = 10; // ms
+
   // Animation variables
+  private static final int DISC_ANIM_SPEED = 50; // ms
+  private static final int DISC_ANIM_FRAMES = 10;
+
   private static boolean doDiscAnimation = false;
   private static int discAnimNum = -1;
   private static int discAnimFrom = -1;
   private static int discAnimTo = -1;
+
+  // User input
+  private static Scanner scan = new Scanner(System.in);
 
   // runs the puzzle, moving all of the discs (numDiscs) from peg fromPeg
   // to peg toPeg in the most efficient manner (i.e. fewest number of moves).
@@ -81,7 +95,7 @@ public class TowersOfHanoi {
 
     // Load up the from-peg with discs
     for (int i = numDiscs; i > 0; i--) {
-      gameState.get(from).add(i);
+      gameState.get(from).add(i - 1);
     }
     // endregion
 
@@ -91,11 +105,14 @@ public class TowersOfHanoi {
     doDiscAnimation = false;
     visualizeHanoiPegs();
 
-    // Make the first recursive call!
-    moveTower(numDiscs - 1, from, to, via);
+    // Wait for input
+    waitForInput();
 
-    // 7. report the result!
-    System.out.println("Ta-da!! It took " + count + " moves.");
+    // Make the first recursive call
+    moveTower(numDiscs - 1, from, to, via, 1);
+
+    // Report the result!
+    print("Finished! Game completed in " + count + " moves.");
   }
 
   public static void showHanoiPegs() {
@@ -107,34 +124,39 @@ public class TowersOfHanoi {
   }
 
   public static void visualizeHanoiPegs() {
+    if (countDrawn != count) {
+      countDrawn = count;
+    } else {
+      return;
+    }
+
     boolean discAnimating = true;
 
-    int discAnimationDelay = 100; // ms
-    int discAnimationFrames = 25;
+    int animFrames = DISC_ANIM_FRAMES;
 
     // If we are not going to animate this time,
     // then just set the animation length to 0
     if (!doDiscAnimation) {
-      discAnimationFrames = 0;
+      animFrames = 0;
     }
 
     int frame = 0;
 
     while (discAnimating) {
-      print(frame + "");
-
       // Do the animation
-      animateDiscMove(discAnimNum, discAnimFrom, discAnimTo, frame);
+      animateDiscMove(discAnimNum, discAnimFrom, discAnimTo, (float) frame / (float) animFrames);
 
       // Wait for a small time delay
       // (otherwise the animation would be too fast)
-      waitFor(discAnimationDelay);
+      waitFor(DISC_ANIM_SPEED);
 
-      // Clear terminal
-      // clearTerminal();
+      // Clear terminal before drawing next frame
+      if ((!doDiscAnimation && frame != 0) || (doDiscAnimation && frame != animFrames)) {
+        clearTerminal();
+      }
 
       // End case for the animation
-      if (frame >= discAnimationFrames) {
+      if (frame >= animFrames) {
         discAnimating = false;
       }
       // If not done, increment frame counter
@@ -145,7 +167,7 @@ public class TowersOfHanoi {
   }
 
   // Draw the towers with an animation of disc movement
-  private static void animateDiscMove(int discAnimNum, int animPegFrom, int animPegTo, int animFrame) {
+  private static void animateDiscMove(int animDiscNum, int animPegFrom, int animPegTo, float animProgress) {
     // Add empty spacing above
     print("");
 
@@ -153,9 +175,6 @@ public class TowersOfHanoi {
     if (count != 0) {
       print("\nMove " + count);
     }
-
-    // Determine the animation direction
-    int animDirection = animPegFrom - animPegTo < 0 ? -1 : 1;
 
     // Create a list of strings to store the image being drawn
     // The number of lines is the height of each peg
@@ -172,17 +191,14 @@ public class TowersOfHanoi {
     int whitespace = 5;
     int pegWidth = totalDiscs * 2 + 2; // Maximum width of a peg base
 
-    // Line to animate
-    int lineBeingAnimated = -1;
-
-    // Draw all the pegs and their discs
+    // region Draw all the pegs
     // Go through every peg
-    for (int peg = 0; peg < HANOI_PEGS.length(); peg++) {
+    for (int peg = 0; peg < gameState.size(); peg++) {
       // Determine what this peg's whitespace should be
       // Should be one less for the first peg
       int pegWhitespace = peg == 0 ? whitespace - 1 : whitespace;
 
-      // region Top part
+      // region Top part (peg labels and separator line)
       // Add the whitespace before the peg name
       for (int e = 0; e < pegWhitespace + totalDiscs; e++) {
         lines[0] += " ";
@@ -202,63 +218,21 @@ public class TowersOfHanoi {
       }
       // endregion
 
-      // region Peg level drawing
-      // Go through every line and draw a disc if it exists there
+      // region Draw the stem of the peg
+      // Go through every line of the peg stem
       for (int l = lines.length - 2; l >= 2; l--) {
-        // Get the disc size at this line
-        int discNum = getDiscAt(peg, totalDiscs - l + 3);
-        int discSize = discNum + 1;
-
-        // region Whitespace and peg drawing
-        // Add the extra whitespace before the peg
-        // and before the disc starts
-        for (int e = 0; e < pegWhitespace + (totalDiscs - discSize); e++) {
+        // Draw the whitespace before the stem
+        for (int e = 0; e < pegWhitespace + totalDiscs; e++) {
           lines[l] += " ";
         }
 
-        // region Disc drawing
-        // Make sure this is the disc being animated
-        if (discNum == discAnimNum && doDiscAnimation == true) {
-          lineBeingAnimated = l;
+        // Draw the stem
+        lines[l] += "║";
 
-          lines[l] += "║";
-        }
-        // Otherwise, draw the disc normally
-        else  {
-          // Set the draw color to the disc color
-          if (discNum != -1) {
-            lines[l] += getDiscColor(discNum + 2);
-          }
-
-          // Draw the first half of the disc
-          for (int e = 0; e < discSize; e++) {
-            lines[l] += "█";
-          }
-
-          // Draw the peg (if no disc exists)
-          if (discNum == -1) {
-            lines[l] += "║";
-          }
-          // Otherwise draw the center piece of the disc
-          else {
-            lines[l] += "█";
-          }
-
-          // Draw the second half of the disc
-          for (int e = 0; e < discSize; e++) {
-            lines[l] += "█";
-          }
-
-          // Reset the line color
-          lines[l] += ANSI_RESET;
-        }
-        // endregion
-
-        // Draw the remaining empty space (NOT whitespace) after the disc ends
-        for (int e = 0; e < totalDiscs - discSize + 1; e++) {
+        // Draw the whitespace after the stem
+        for (int e = 0; e < totalDiscs + 1; e++) {
           lines[l] += " ";
         }
-        // endregion
       }
       // endregion
 
@@ -290,42 +264,119 @@ public class TowersOfHanoi {
       }
       // endregion
     }
+    // endregion
 
-    // region Animated disc drawing
-    if (doDiscAnimation) {
-      print("ANIM");
-      // Get the disc size at this line
-      int discSize = discAnimNum + 1;
+    // region Draw the discs
+    StringBuilder[] discDrawStrings = new StringBuilder[lines.length];
+    int animatedLine = -1;
+    int[] animOffsets = new int[lines.length];
 
-      // Disc draw offset for animation
-      int discOffset = animFrame * animDirection;
-
-      // Calculate disc start and end indices
-      int startIndex = interpolate(1 + whitespace + (totalDiscs - discSize), animPegFrom * pegWidth,
-          animFrame / (float) animFrame);
-      int endIndex = interpolate(1 + whitespace + (totalDiscs - discSize), animPegTo * pegWidth,
-          animFrame / (float) animFrame) + discSize * 2 - 1;
+    // Go through every line
+    for (int l = lines.length - 2; l >= 2; l--) {
+      int offset = 0;
 
       // Create a string builder for overwriting the line string
-      StringBuilder builder = new StringBuilder(lines[lineBeingAnimated]);
-
-      // Set the draw color to the disc color
-      builder.insert((startIndex + discOffset) - 1, getDiscColor(discAnimNum + 2));
-
-      // Draw the disc over the current string
-      for (int i = startIndex + discOffset; i <= endIndex + discOffset; i++) {
-        builder.setCharAt(i, '█');
+      if (discDrawStrings[l] == null) {
+        discDrawStrings[l] = new StringBuilder(lines[l]);
       }
 
-      // Reset the line color
-      builder.insert(endIndex + 1, ANSI_RESET);
+      // Go through every peg
+      for (int peg = 0; peg < gameState.size(); peg++) {
+        // Calculate the disc number
+        int disc = getDiscAt(peg, lines.length - l - 2);
 
-      print(builder.toString());
+        // If the disc number is negative
+        // or the disc is being animated,
+        // then the disc does not exist
+        if (disc < 0 || (doDiscAnimation && disc == animDiscNum)) {
+          animatedLine = l;
+          continue;
+        }
 
-      // Replace the line string with the overwritten string
-      lines[lineBeingAnimated] = builder.toString();
+        // Calculate the center of the peg (and so the center of the disc)
+        int discCenter = ordinalIndexOf(lines[l], "║", peg + 1) + offset;
+
+        // if (disc == 0) {
+        // print("RRRRRRRR " + peg + " " + discCenter);
+        // }
+
+        // Calculate left and right disc draw string indices
+        int discLeft = discCenter - (disc + 1);
+        int discRight = discCenter + disc + 1;
+
+        // Draw the disc over the current string
+        for (int e = discLeft; e <= discRight; e++) {
+          discDrawStrings[l].setCharAt(e, '█');
+        }
+
+        // Set the center character to the disc number,
+        // to remain consistent with the rest of the discs
+        discDrawStrings[l].setCharAt(discCenter, (char) (disc + '0'));
+
+        // Set the draw color to the disc color
+        discDrawStrings[l].insert(discLeft, getDiscColor(disc));
+
+        // Reset the line color
+        discDrawStrings[l].insert(discRight + 2 + getDiscColor(disc).length(), ANSI_RESET);
+
+        // Increase the offset for the next disc
+        offset += getDiscColor(disc).length() + ANSI_RESET.length();
+      }
+
+      animOffsets[l] = offset;
     }
     // endregion
+
+    // region Draw the animated disc
+    // If we are animating
+    if (doDiscAnimation) {
+      // Go through every line again,
+      // this time to animate the disc movement
+      // Determine what line the disc was moved to
+      int newLine = lines.length - gameState.get(animPegTo).indexOf(animDiscNum) - 2;
+
+      // Calculate the interpolated line to drawn on
+      // Between the disc's original line and the line where the disc was moved to
+      animatedLine = interpolate(animatedLine + 1, newLine, animProgress);
+
+      // Calculate the interpolated peg centers
+      int centerFrom = ordinalIndexOf(lines[animatedLine], "║", animPegFrom + 1) + animOffsets[animatedLine];
+      int centerTo = ordinalIndexOf(lines[newLine], "║", animPegTo + 1) + animOffsets[newLine];
+
+      // Calculate the interpolated current index of the disc center
+      int discCenter = interpolate(centerFrom, centerTo, animProgress);
+
+      // Calculate left and right disc draw string indices
+      int discLeft = discCenter - (animDiscNum + 1);
+      int discRight = discCenter + animDiscNum + 1;
+
+      // Create a string builder for overwriting the line string
+      // animatedDiscDrawString = new StringBuilder(lines[animatedLine]);
+
+      // Draw the disc over the current string
+      for (int e = discLeft; e <= discRight; e++) {
+        discDrawStrings[animatedLine].setCharAt(e, '█');
+      }
+
+      // Set the center character to the disc number,
+      // to remain consistent with the rest of the discs
+      discDrawStrings[animatedLine].setCharAt(discCenter, (char) (animDiscNum + '0'));
+
+      // Set the draw color to the disc color
+      discDrawStrings[animatedLine].insert(discLeft, getDiscColor(animDiscNum));
+
+      // Reset the line color
+      discDrawStrings[animatedLine].insert(discRight + 2 + getDiscColor(animDiscNum).length(), ANSI_RESET);
+    }
+    // endregion
+
+    // Replace the lines with the overwritten strings
+    for (int i = 0; i < lines.length; i++) {
+      // If the disc draw string is null, then the disc does not exist
+      if (discDrawStrings[i] != null) {
+        lines[i] = discDrawStrings[i].toString();
+      }
+    }
 
     // Draw every line
     for (String line : lines) {
@@ -334,11 +385,9 @@ public class TowersOfHanoi {
   }
 
   // Classic Towers of Hanoi recursive solution
-  public static void moveTower(int diskNum, int from, int to, int via) {
-    // base case: can ALWAYS move the smallest disk
+  public static void moveTower(int diskNum, int from, int to, int via, int depth) {
+    // Base case: can ALWAYS move the smallest disk
     if (diskNum == 0) {
-      // System.out.println("move disk 0 to peg " + HANOI_PEGS.substring(to, to + 1));
-
       // Move from peg "from" to peg "to" if it is legal
       if (canMove(0, getTop(to))) {
         // Remove the top of peg "from"
@@ -348,22 +397,34 @@ public class TowersOfHanoi {
         addToTop(to, 0);
       }
 
-      // increment count
+      // Increment count
       count++;
 
-      // display the game state
+      info("End of layer " + depth + ". Moved disc 0 directly from " + HANOI_PEGS.charAt(from) + " to "
+          + HANOI_PEGS.charAt(to) + ". Count is now " + count + ". Returning to next step of layer " + (depth - 1)
+          + ".");
+
+      // Display the game state
       doDiscAnimation = true;
       discAnimNum = diskNum;
       discAnimFrom = from;
       discAnimTo = to;
       visualizeHanoiPegs();
-    } else {
-      // move the tower on top of diskNum to the spare peg
-      moveTower(diskNum - 1, from, via, to);
 
-      // then move the bigger disk to the destination peg
-      // System.out.println("move disk " + diskNum + " to peg " +
-      // HANOI_PEGS.substring(to, to + 1));
+      // Wait for input
+      waitForInput();
+    } else {
+      info("Step 1 of layer " + depth + ". Moving tower above disc " + diskNum + " from " + HANOI_PEGS.charAt(from)
+          + " to "
+          + HANOI_PEGS.charAt(via) + " via " + HANOI_PEGS.charAt(to) + ". Cannot move yet, entering layer "
+          + (depth + 1) + ".");
+
+      // Move the tower on top of diskNum to the spare peg
+      moveTower(diskNum - 1, from, via, to, depth + 1);
+
+      infoin(
+          "Step 2 of layer " + depth + ". Moving disc " + diskNum + " directly from " + HANOI_PEGS.charAt(from) + " to "
+              + HANOI_PEGS.charAt(to));
 
       // Move from peg "from" to peg "to" if it is legal
       if (canMove(diskNum, getTop(to))) {
@@ -374,18 +435,30 @@ public class TowersOfHanoi {
         addToTop(to, diskNum);
       }
 
-      // increment count
+      // Increment count
       count++;
 
-      // then move the tower from spare peg to target peg
-      moveTower(diskNum - 1, via, to, from);
+      info(". Count is now " + count + ".");
 
-      // display the game state
+      info("Step 3 of layer " + depth + ". Moving tower that used to be above disc " + diskNum + " (Disc "
+          + (diskNum - 1)
+          + ") from " + HANOI_PEGS.charAt(via) + " to " + HANOI_PEGS.charAt(to) + " via " + HANOI_PEGS.charAt(from)
+          + ". Cannot finish layer yet, entering layer " + (depth + 1) + ".");
+
+      // Display the game state
       doDiscAnimation = true;
       discAnimNum = diskNum;
       discAnimFrom = from;
       discAnimTo = to;
       visualizeHanoiPegs();
+
+      // Wait for input
+      waitForInput();
+
+      // Then move the tower from spare peg to target peg
+      moveTower(diskNum - 1, via, to, from, depth + 1);
+
+      info("End of layer " + depth + ". Returning to next step of layer " + (depth - 1) + ".");
     }
   }
 
@@ -417,7 +490,28 @@ public class TowersOfHanoi {
    * @return The interpolated integer
    */
   private static int interpolate(int a, int b, float f) {
-    return (int) ((float) a * (1.0f - (float) f) + ((float) b * (float) f));
+    return (int) ((float) a * (1.0f - f) + ((float) b * f));
+  }
+
+  // Wait for the user to press enter before continuing to next move
+  private static void waitForInput() {
+    print("Press enter to continue");
+    scan.nextLine();
+  }
+
+  /**
+   * Get the index of the nth occurrence of a substring in a string
+   * 
+   * @param str    The string to search
+   * @param substr The substring to search for
+   * @param n      The number of the occurrence to find
+   * @return The index of the nth occurrence of the substring in the string, or -1
+   */
+  private static int ordinalIndexOf(String str, String substr, int n) {
+    int pos = str.indexOf(substr);
+    while (--n > 0 && pos != -1)
+      pos = str.indexOf(substr, pos + 1);
+    return pos;
   }
 
   // region Disc Manipulation
@@ -500,9 +594,6 @@ public class TowersOfHanoi {
   private static void animateTitleIn() {
     boolean animating = true;
 
-    int lineDelay = 25; // ms
-    int titleDelay = 25; // ms
-
     int lineHalfLength = 0;
 
     String[] titleLines = {
@@ -544,7 +635,7 @@ public class TowersOfHanoi {
       print("");
       print(line);
 
-      waitFor(lineDelay);
+      waitFor(TITLE_ANIM_LINE_SPEED);
 
       // Increment the line half length
       lineHalfLength++;
@@ -595,7 +686,7 @@ public class TowersOfHanoi {
       print(lines[2]);
       print("\n=========================================================================");
 
-      waitFor(titleDelay);
+      waitFor(TITLE_ANIM_TEXT_SPEED);
 
       // Increment the title line half length
       titleLineHalfLength++;
@@ -632,6 +723,18 @@ public class TowersOfHanoi {
 
   private static void print(String s) {
     System.out.println(s);
+  }
+
+  private static void info(String s) {
+    if (printInfo) {
+      System.out.println(s);
+    }
+  }
+
+  private static void infoin(String s) {
+    if (printInfo) {
+      System.out.print(s);
+    }
   }
   // endregion
 }
